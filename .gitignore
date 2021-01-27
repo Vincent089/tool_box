@@ -1,5 +1,5 @@
-_db_repo/*
-_file_input/*
-_file_output/*
+_db_repo
+_file_input
+_file_output
 venv/
 .idea/
