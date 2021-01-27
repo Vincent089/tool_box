@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker run --rm -it -v ~/Documents/Workshop/tool_box/ansible:/ansible/playbooks ansible-playbook site.yml

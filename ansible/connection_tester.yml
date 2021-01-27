@@ -1,0 +1,9 @@
+---
+- hosts: 10.255.251.200
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: connection tester
+      ping:
+      delegate_to: 127.0.0.1

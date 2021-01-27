@@ -1,0 +1,17 @@
+netmiko~=3.1.0
+ciscoconfparse~=1.5.4
+paramiko
+ncclient
+pyang
+pyangbind
+xmltodict
+plotly~=4.6.0
+plotly-express
+plotly-charts
+chart-studio
+ntc_templates
+textfsm
+docker~=4.2.0
+pymysql~=0.10.1
+DateTime~=4.3
+websockets~=8.1

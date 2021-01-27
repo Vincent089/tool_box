@@ -1,0 +1,138 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Gi1/0/19
+36   CID_1004_CRP_MTL-OTT             active    
+37   CID_1005_CRP_MTL-OTT             active    
+42   CID_1018_CTI_PBR_ICX             active    
+111  CID_1015_CTI_Internet            active    
+122  CID_1000_SNIS2                   active    
+128  CID_1021_OTT_DC_OOB              active    
+851  CID_1006_B&I                     active    
+852  CID_1007_B&I_TD                  active    
+853  CID_1009_WDC_mgmt                active    
+854  CID_1008_B&I_COTT                active    
+855  CID_1010_B&I_TD                  active    
+1002 fddi-default                     act/unsup 
+1003 token-ring-default               act/unsup 
+1004 fddinet-default                  act/unsup 
+1005 trnet-default                    act/unsup 
+1336 10.7.2.0/27_FOR_GDN_REPLICATION  active    
+1397 CID_1027_PLEXXUS                 active    
+1467 GIS_VFI3506_INT_BGP2             active    
+2421 CID_1001_terminal_servers        active    
+2426 10.100.20.0/27_SNIS_CNET_CIBC    active    
+2816 10.10.7.144/29_ViaRail_DIC_MDC   active    
+3134 CID_1014_CTI_IConnect            active    
+3162 CTI_MNGT_ACCESS_MDC              active    
+3500 B&I_VFI3500_MTL_OTT_MDC          active    
+3501 CTI_VFI3501_MTL_OTT_MDC          active    
+3502 CNS_VFI3502_MTL_OTT_MDC          active    
+3503 NEW_Cli_VFI3503_MTL_OTT_MDC      active    
+3504 CTI_PBR_ICX_VFI3504_MTL_MDC_ODC_ active    
+3506 GIS_VFI3506_MTL_OTT_MDC          active    
+3600 B&I_VFI3600_MTL_MDC              active    
+3601 CTI_VFI3601_MTL_MDC              active    
+3602 COTT_VFI3602_MTL_MDC             active    
+3603 NEW_Cli_VFI_3603_MTL_MDC         active    
+3604 FCSA_VFI_3604_MTL_MDC            active    
+3605 VFI_3605_MTL_MDC                 active    
+3606 forester__VFI_3606_MTL_MDC       active    
+3607 GDN_SSB_Replication              active    
+3608 Rexel_VFI_3608_MTL_MDC           active    
+3609 CIBC-DRP_VFI_3609_MTL_MDC        active    
+3612 ViaRail_VFI3612_MTL_MDC          active    
+3613 Acxsys_VFI3613_MTL_MDC           active    
+3614 CSA_VFI3614_MTL_MDC              active    
+3615 IC_NUANS_VFI3615_MTL_MDC         active    
+3616 BNC_VFI3616_MTL_MDC              active    
+3636 CPA_VTS_VFI3636                  active    
+3637 CPA_DataSyn_VFI3637              active    
+3651 VFI_Corpo                        active    
+3652 VFI_Corpo_3652                   active    
+3661 CloudV2_VFI3661_MTL_MDC          active    
+3662 CAE_VFI3662_MTL_MDC              active    
+3663 commvault_VFI3662_MTL_MDC        active    
+3664 COMARK_VFI3664_MTL_MDC           active    
+3666 ITSM_VFI3666_MTL_MDC             active    
+3667 NUANS_VFI3667_MTL_MDC            active    
+3668 SUNCOR_VFI3668_MTL_MDC           active    
+3670 CPA_HUR_VFI3670                  active    
+3700 CORPO_VFI3700_MTL_OTT            active    
+3701 CTI_VFI3701_MTL_OTT              active    
+3702 CTI_INTERNET_VFI3702_MTL_OTT     active    
+3703 Ehealth_VFI3703_MTL_OTT          active    
+3705 GTA-WEST_VFI_3705_MTL_ODC        active    
+3706 serc_VFI3706_MTL_ODC             active    
+
+VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+1    enet  100001     1500  -      -      -        -    -        0      0   
+36   enet  100036     1500  -      -      -        -    -        0      0   
+37   enet  100037     1500  -      -      -        -    -        0      0   
+42   enet  100042     1500  -      -      -        -    -        0      0   
+111  enet  100111     1500  -      -      -        -    -        0      0   
+122  enet  100122     1500  -      -      -        -    -        0      0   
+128  enet  100128     1500  -      -      -        -    -        0      0   
+851  enet  100851     1500  -      -      -        -    -        0      0   
+852  enet  100852     1500  -      -      -        -    -        0      0   
+853  enet  100853     1500  -      -      -        -    -        0      0   
+854  enet  100854     1500  -      -      -        -    -        0      0   
+855  enet  100855     1500  -      -      -        -    -        0      0   
+1002 fddi  101002     1500  -      -      -        -    -        0      0   
+1003 tr    101003     1500  -      -      -        -    -        0      0   
+1004 fdnet 101004     1500  -      -      -        ieee -        0      0   
+1005 trnet 101005     1500  -      -      -        ibm  -        0      0   
+1336 enet  101336     1500  -      -      -        -    -        0      0   
+1397 enet  101397     1500  -      -      -        -    -        0      0   
+1467 enet  101467     1500  -      -      -        -    -        0      0   
+2421 enet  102421     1500  -      -      -        -    -        0      0   
+2426 enet  102426     1500  -      -      -        -    -        0      0   
+2816 enet  102816     1500  -      -      -        -    -        0      0   
+3134 enet  103134     1500  -      -      -        -    -        0      0   
+3162 enet  103162     1500  -      -      -        -    -        0      0   
+3500 enet  103500     8196  -      -      -        -    -        0      0   
+3501 enet  103501     8196  -      -      -        -    -        0      0   
+3502 enet  103502     8196  -      -      -        -    -        0      0   
+3503 enet  103503     8196  -      -      -        -    -        0      0   
+3504 enet  103504     8196  -      -      -        -    -        0      0   
+3506 enet  103506     8196  -      -      -        -    -        0      0   
+3600 enet  103600     8196  -      -      -        -    -        0      0   
+3601 enet  103601     8196  -      -      -        -    -        0      0   
+3602 enet  103602     8196  -      -      -        -    -        0      0   
+3603 enet  103603     8196  -      -      -        -    -        0      0   
+3604 enet  103604     8196  -      -      -        -    -        0      0   
+3605 enet  103605     8196  -      -      -        -    -        0      0   
+3606 enet  103606     8196  -      -      -        -    -        0      0   
+3607 enet  103607     8196  -      -      -        -    -        0      0   
+3608 enet  103608     8196  -      -      -        -    -        0      0   
+3609 enet  103609     8196  -      -      -        -    -        0      0   
+3612 enet  103612     8196  -      -      -        -    -        0      0   
+3613 enet  103613     8196  -      -      -        -    -        0      0   
+3614 enet  103614     8196  -      -      -        -    -        0      0   
+3615 enet  103615     8196  -      -      -        -    -        0      0   
+3616 enet  103616     8196  -      -      -        -    -        0      0   
+3636 enet  103636     8196  -      -      -        -    -        0      0   
+3637 enet  103637     8196  -      -      -        -    -        0      0   
+3651 enet  103651     8196  -      -      -        -    -        0      0   
+3652 enet  103652     8196  -      -      -        -    -        0      0   
+3661 enet  103661     8196  -      -      -        -    -        0      0   
+3662 enet  103662     8196  -      -      -        -    -        0      0   
+3663 enet  103663     8196  -      -      -        -    -        0      0   
+3664 enet  103664     8196  -      -      -        -    -        0      0   
+3666 enet  103666     8196  -      -      -        -    -        0      0   
+3667 enet  103667     8196  -      -      -        -    -        0      0   
+3668 enet  103668     8196  -      -      -        -    -        0      0   
+3670 enet  103670     8196  -      -      -        -    -        0      0   
+3700 enet  103700     8196  -      -      -        -    -        0      0   
+3701 enet  103701     8196  -      -      -        -    -        0      0   
+3702 enet  103702     8196  -      -      -        -    -        0      0   
+3703 enet  103703     8196  -      -      -        -    -        0      0   
+3705 enet  103705     8196  -      -      -        -    -        0      0   
+3706 enet  103706     8196  -      -      -        -    -        0      0   
+
+Remote SPAN VLANs
+------------------------------------------------------------------------------
+
+
+Primary Secondary Type              Ports
+------- --------- ----------------- ------------------------------------------

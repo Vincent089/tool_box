@@ -1,0 +1,11 @@
+// build the docker image assuming that "." is here the Dockerfile is located
+docker build -t ansible-playbook .
+
+// To run a playbook assuming that "ansible-playbook" is the name of the image build
+// replace PATH_TO_LOCAL_PLAYBOOKS_DIR by the full path of you local drive where the playbooks can be found
+// replace PLAYBOOK_FILE by the name of the playbook you are trying to run
+docker run --rm -it -v PATH_TO_LOCAL_PLAYBOOKS_DIR:/ansible/playbooks ansible-playbook PLAYBOOK_FILE
+
+e.g.:
+docker run --rm -it -v C:/Users/vincent.corriveau/Documents/Workshop/tool_box/ansible:/ansible/playbooks ansible-playbook site.yml
+docker run --rm -it -v ~/Documents/Workshop/tool_box/ansible:/ansible/playbooks ansible-playbook connection_tester.yml
