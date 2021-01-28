@@ -5,7 +5,6 @@ def create_connection(db_file):
     """
     Create a connection engine with SQLAlchemy
     :param db_file:
-    :param engine_name:
     :return:
     """
     return create_engine('sqlite:///%s' % db_file,

@@ -13,7 +13,8 @@ def build_csv_with_headers(file_name, file_headers, file_rows):
     """
     timestamp = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
 
-    with open('../_file_output/%s_%s.csv' % (file_name, str(timestamp)), encoding='utf8', mode='w') as csvfile:
+    with open(r'C:\Users\vincent.corriveau\Documents\Workshop\tool_box\_file_output\%s_%s.csv' %
+              (file_name, str(timestamp)), encoding='utf8', mode='w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=file_headers, delimiter=';')
         writer.writeheader()
         writer.writerows(file_rows)
@@ -28,7 +29,7 @@ def build_list_from_csv(file_location, delimiter):
     :param delimiter:
     :return:
     """
-    with open(file_location, mode='r', encoding='utf8') as csv_file:
+    with open(file_location, mode='r', encoding='ANSI') as csv_file:
         csv_reader = csv.DictReader(csv_file, delimiter=delimiter)
         result = list(csv_reader)
 
