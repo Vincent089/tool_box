@@ -2,7 +2,7 @@ from common.csv_tool import build_list_from_csv, build_csv_with_headers
 from net_tools.gdn_circuit_mapper_v2.commands.device_bd_parser_cmd import ParseNewGDNBridgeDomainConfigCommand
 from net_tools.gdn_circuit_mapper_v2.commands.device_int_parser_cmd import ParseNewGDNInterfaceConfigCommand
 from net_tools.gdn_circuit_mapper_v2.manager.device_manager import DeviceManager
-from net_tools.gdn_circuit_mapper_v2.lists.gdn_devices import gdn_device_list, new_gdn_device_list, old_gdn_device_list
+from net_tools.gdn_circuit_mapper_v2.lists.gdn_devices import new_gdn_device_list
 
 
 def load_circuit_csv():

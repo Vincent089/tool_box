@@ -3,43 +3,12 @@ import json
 
 from common.date_tool import timestamp, timestamp_to_string
 from common.db_tool import create_connection
-
-# Notes!
-# Log to a device and list the Loopback interfaces
-# show ip int brief | include oo
-
-# list of gdn_circuit_mapper_v2 device related to GDN
+from common.json_tool import load_file
 from common.user import User
 from net_tools.classes.device import Device
 from net_tools.classes.device_command import DeviceCommand
 from net_tools.classes.device_connector import DeviceConnector
-
-deviceList = (
-    # mtl
-    ('CAMTLCDJ1R100', {'ip': '10.206.254.2', 'os': 'cisco_ios'}),
-    ('CAMTLDIC1R100', {'ip': '10.206.254.1', 'os': 'cisco_ios'}),
-    ('CAMTLDIC1R500', {'ip': '10.206.254.3', 'os': 'cisco_xr'}),
-    ('CAMTLDIC1R600', {'ip': '10.206.254.4', 'os': 'cisco_xr'}),
-    ('CAMTLVSL1R500', {'ip': '10.206.254.26', 'os': 'cisco_xr'}),
-    ('CAMTLVSL1R600', {'ip': '10.206.254.27', 'os': 'cisco_xr'}),
-    # mdc
-    ('CATORMDC1R100', {'ip': '10.206.254.7', 'os': 'cisco_ios'}),
-    ('CATORMDC1R200', {'ip': '10.206.254.8', 'os': 'cisco_ios'}),
-    ('CATORMDC1R500', {'ip': '10.206.254.10', 'os': 'cisco_xr'}),
-    ('CATORMDC1R600', {'ip': '10.206.254.9', 'os': 'cisco_xr'}),
-    # sdc
-    ('CASAGSDC1R300', {'ip': '10.206.254.21', 'os': 'cisco_xr'}),
-    ('CASAGSDC1R400', {'ip': '10.206.254.22', 'os': 'cisco_xr'}),
-    # rdc
-    ('CAREGDC1R300', {'ip': '10.206.254.19', 'os': 'cisco_xr'}),
-    ('CAREGDC1R400', {'ip': '10.206.254.20', 'os': 'cisco_xr'}),
-    # odc
-    ('CAOTTBLA1R100', {'ip': '10.206.254.5', 'os': 'cisco_ios'}),
-    ('CAOTTBLA1R200', {'ip': '10.206.254.6', 'os': 'cisco_ios'}),
-    # pdc
-    ('USPHXSOU1R100', {'ip': '10.206.254.17', 'os': 'cisco_ios'}),
-    ('USPHXSOU1R200', {'ip': '10.206.254.18', 'os': 'cisco_ios'}),
-)
+from net_tools.gdn_circuit_mapper_v1.lists import gdn_devices
 
 
 def connect_to_device_config_db():
@@ -97,22 +66,23 @@ def pull_config_from_device(device: Device):
     return command.run_command()
 
 
-# Entry point
-if __name__ == "__main__":
-    # access to local device config storage
-    devices = create_device_config_model()
+def update_map_with_manual_data():
+    from os import listdir
+    from os.path import isfile, join
 
-    # prompt for a username
-    print('\nYou username is needed to collect any device configuration if need be')
-    username = input('Enter username (default = %s) :' % getpass.getuser())
+    odc_manual_map_location = r'C:\Users\vincent.corriveau\Documents\Workshop\tool_box\_file_input\odc_gdn_map'
 
-    # setup the user to be use for every device connection during script run
-    user = User(username=username) if username != '' else User()
-    user.ask_password()
+    files = [f for f in listdir(odc_manual_map_location) if isfile(join(odc_manual_map_location, f))]
 
-    results = {}
+    for file_name in files:
+        data = load_file(r'%s/%s' % (odc_manual_map_location, file_name))
 
-    for host_key, host_detail in deviceList:
+        for key, value in data.items():
+            results[key] = value
+
+
+def main():
+    for host_key, host_detail in device_list:
         device = Device(hostname=host_key,
                         ip=host_detail.get('ip'),
                         os=host_detail.get('os'))
@@ -168,8 +138,31 @@ if __name__ == "__main__":
                                 results[bridge_details['vpn-id']][device.hostname]['policy-maps'].append(
                                     {policy_name: policy_details})
 
+    update_map_with_manual_data()
+
     file_name = 'gdn_circuit_map_%s.json' % timestamp_to_string()
     with open('../_file_output/%s' % file_name, 'w') as file:
         file.write(json.dumps(results))
 
     print('\nMap completed\nSee file \'%s\'' % file_name)
+
+
+def tester():
+    update_map_with_manual_data()
+
+
+if __name__ == "__main__":
+    import doctest
+
+    # Global Vars
+    device_list, devices, results = gdn_devices.device_list, create_device_config_model(), {}
+
+    # prompt for a username
+    print('\nYou username is needed to collect any device configuration if need be')
+    username = input('Enter username (default = %s) :' % getpass.getuser())
+
+    # setup the user to be use for every device connection during script run
+    user = User(username=username) if username != '' else User()
+    user.ask_password()
+
+    doctest.testmod(main())

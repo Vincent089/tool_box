@@ -98,7 +98,7 @@ def validate_map(gdn_map: dict) -> dict:
 def main():
     """Entry point"""
     # file_location = input('Enter your json file path : ')
-    file_location = r'C:\Users\vincent.corriveau\Documents\Workshop\tool_box\_file_output\gdn_circuit_map_2021-02-08-16-32-05.json'
+    file_location = r'C:\Users\vincent.corriveau\Documents\Workshop\tool_box\_file_output\gdn_circuit_map_2021-02-09-14-30-47.json'
     file_data = load_file(file_location=file_location)
     anomalies = validate_map(file_data)
     output_to_json_file(file_name='gdn_mapper_validation', dict_data=anomalies)
