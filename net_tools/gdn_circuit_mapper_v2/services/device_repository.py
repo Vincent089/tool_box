@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, MetaData, Table, Column, String, DateTime, select
 from common.date_tool import timestamp
 
-from net_tools.gdn.classes.device import Device
+from net_tools.gdn_circuit_mapper_v2.classes.device import Device
 
 
 class DeviceRepository:

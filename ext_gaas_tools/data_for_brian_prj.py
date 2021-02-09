@@ -105,7 +105,7 @@ def convert_tuple_to_dict(db_tuple):
 # Entry point
 if __name__ == "__main__":
     # List of excluded device
-    excluded_device_name = ('gdn', 'phoenix', 'bell', 'montrea', 'regina', 'saguenay', 'ottawa', 'montreal', 'client',
+    excluded_device_name = ('gdn_circuit_mapper_v2', 'phoenix', 'bell', 'montrea', 'regina', 'saguenay', 'ottawa', 'montreal', 'client',
                             'fcc - core', 'remote', 'fcc-dc', 'curvature', 'testgdnrouter2', 'testgdnrouter1',
                             'testgdnrouter3', 'testgdnrouter4')
 

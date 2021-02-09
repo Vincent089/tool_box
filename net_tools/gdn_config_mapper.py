@@ -8,7 +8,7 @@ from common.db_tool import create_connection
 # Log to a device and list the Loopback interfaces
 # show ip int brief | include oo
 
-# list of gdn device related to GDN
+# list of gdn_circuit_mapper_v2 device related to GDN
 from common.user import User
 from net_tools.classes.device import Device
 from net_tools.classes.device_command import DeviceCommand

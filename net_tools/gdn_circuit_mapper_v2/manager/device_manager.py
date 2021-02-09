@@ -1,11 +1,11 @@
 from typing import Union
 
-from net_tools.gdn.classes.device import Device
-from net_tools.gdn.commands.device_bd_parser_cmd import ParseNewGDNBridgeDomainConfigCommand
-from net_tools.gdn.commands.device_int_parser_cmd import ParseNewGDNInterfaceConfigCommand
-from net_tools.gdn.commands.device_parser_cmd import DeviceConfigParser
-from net_tools.gdn.services.device_net_connector import DeviceNetworkConnector
-from net_tools.gdn.services.device_repository import DeviceRepository
+from net_tools.gdn_circuit_mapper_v2.classes.device import Device
+from net_tools.gdn_circuit_mapper_v2.commands.device_bd_parser_cmd import ParseNewGDNBridgeDomainConfigCommand
+from net_tools.gdn_circuit_mapper_v2.commands.device_int_parser_cmd import ParseNewGDNInterfaceConfigCommand
+from net_tools.gdn_circuit_mapper_v2.commands.device_parser_cmd import DeviceConfigParser
+from net_tools.gdn_circuit_mapper_v2.services.device_net_connector import DeviceNetworkConnector
+from net_tools.gdn_circuit_mapper_v2.services.device_repository import DeviceRepository
 import logging
 
 

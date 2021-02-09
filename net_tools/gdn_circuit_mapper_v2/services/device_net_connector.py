@@ -3,7 +3,7 @@ import getpass
 from common.user import User
 from net_tools.classes.device_command import DeviceCommand
 from net_tools.classes.device_connector import DeviceConnector
-from net_tools.gdn.classes.device import Device
+from net_tools.gdn_circuit_mapper_v2.classes.device import Device
 
 
 class DeviceNetworkConnector:

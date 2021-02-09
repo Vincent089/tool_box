@@ -2,8 +2,8 @@ from typing import Union
 
 from ciscoconfparse import CiscoConfParse
 
-from net_tools.gdn.classes.device import Device
-from net_tools.gdn.commands.device_int_parser_cmd import ParseNewGDNInterfaceConfigCommand
+from net_tools.gdn_circuit_mapper_v2.classes.device import Device
+from net_tools.gdn_circuit_mapper_v2.commands.device_int_parser_cmd import ParseNewGDNInterfaceConfigCommand
 
 
 class DeviceConfigParser:

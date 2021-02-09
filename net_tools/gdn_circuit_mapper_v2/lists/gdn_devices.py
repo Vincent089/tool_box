@@ -1,4 +1,4 @@
-from net_tools.gdn.classes.device import Device
+from net_tools.gdn_circuit_mapper_v2.classes.device import Device
 
 old_gdn_device_list = {Device(hostname='CAMTLCDJ1R100', os='cisco_ios', ip='10.206.254.2'),
                        Device(hostname='CAMTLDIC1R100', os='cisco_ios', ip='10.206.254.1'),
