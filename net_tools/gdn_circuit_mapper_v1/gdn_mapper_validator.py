@@ -1,6 +1,19 @@
+import re
+
 from common.json_tool import load_file, output_to_json_file
 
 xstr = lambda s: s or ""
+
+
+def validate_speed_policy(map: dict) -> bool:
+    """Validate that the speed policy object is within the name convention"""
+    reg = re.compile(r'^circuit_bandwidth_\d*M_(in|out)$')
+    counter_valid = []
+
+    for inner_key, inner_values in map.items():
+        counter_valid.append(True if reg.match(inner_key) else False)
+
+    return all(counter_valid)
 
 
 def validate_odc_neighbor(neighbor_ips) -> bool:
@@ -53,6 +66,7 @@ def validate_map(gdn_map: dict) -> dict:
         vpn_endpoints = gdn_map.get(vpn_id).items()
         neighbor_ip_list = []
         bd_error = None
+        speed_error = None
         device_count_error = None
         possible_odc_warning = None
         sym_error = None
@@ -71,6 +85,14 @@ def validate_map(gdn_map: dict) -> dict:
                             # extract neighbors IPs from the sub keys
                             neighbor_ip_list = [neighbors.get('ip') for neighbors in inner_values.get('neighbors')]
 
+                if key == 'policy-maps':
+                    for element in values:
+                        valid = validate_speed_policy(element)
+
+                        if not valid:
+                            speed_error = 'hostname:%s vpn:%s speed don\'t match naming convention' % (
+                                device_name, vpn_id)
+
         valid = validate_endpoint_discovery(vpn_endpoints)
 
         if not valid:
@@ -81,11 +103,12 @@ def validate_map(gdn_map: dict) -> dict:
 
         valid = validate_endpoint_symmetry(vpn_endpoints)
         if not valid:
-            sym_error = 'possible symmetrical config'
+            sym_error = 'possible asymmetrical config'
 
         if bd_error or device_count_error or possible_odc_warning or sym_error:
             print('Found anomalies in VPN-ID:', vpn_id,
                   xstr(bd_error),
+                  xstr(speed_error),
                   xstr(device_count_error),
                   xstr(sym_error),
                   xstr(possible_odc_warning))
