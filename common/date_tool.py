@@ -7,3 +7,11 @@ def timestamp_to_string():
 
 def timestamp():
     return datetime.now()
+
+
+def current_text_month():
+    return datetime.now().strftime('%h')
+
+
+def current_text_year():
+    return datetime.now().strftime('%Y')
