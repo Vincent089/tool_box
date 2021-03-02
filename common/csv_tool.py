@@ -36,13 +36,20 @@ def build_list_from_csv(file_location, delimiter):
     return result
 
 
-def load_file(file_location):
+def load_file_with_header(file_path, delimiter=None):
+    with open(file=file_path, encoding='ANSI', mode='r') as csv_file:
+        print('Reading File\t%s' % csv_file.name)
+        reader = list(csv.DictReader(csv_file, delimiter=delimiter)) if delimiter else list(csv.DictReader(csv_file))
+        return reader
+
+
+def load_file(file_path):
     """
     Simply loading reading a text file location and returning its content
-    :param file_location:
+    :param file_path:
     :return:
     """
-    with open(file_location, encoding='utf8') as file:
+    with open(file_path, encoding='ANSI') as file:
         print('Reading File\t%s' % file.name)
         contents = file.read()
 
