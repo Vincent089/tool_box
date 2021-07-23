@@ -2,7 +2,7 @@ import asyncio
 import websockets
 
 async def hello():
-    uri = 'ws://172.27.49.134:80/ws/vlans'
+    uri = 'ws://localhost:8000/ws/notifications/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMjgzY2YzZjEtNjdjYy00NjBkLTg1NmEtODUzYzMwODI4NmQyIiwidXNlcm5hbWUiOiJ2aW5jZW50LmNvcnJpdmVhdSIsImV4cCI6MTYyNTU5NjE0NCwiZW1haWwiOiJ2aW5jZW50LmNvcnJpdmVhdUBjZ2kuY29tIiwib3JpZ19pYXQiOjE2MjU1OTI1NDR9.JuarJpCH8T5XozBCS7c0LC-Ae7sBhPGqMV-YRaXICZY'
     async with websockets.connect(uri) as websocket:
         name = input('What\'s your name? ')
 
