@@ -8,3 +8,6 @@ pytest-icdiff
 mypy
 pylint
 requests
+lxml
+beautifulsoup4
+ipaddr

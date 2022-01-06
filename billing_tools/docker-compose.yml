@@ -12,6 +12,7 @@ services:
       - FLASK_APP=billingtools/flask_app.py
       - FLASK_DEBUG=1
       - PYTHONUNBUFFERED=1
+      - TZ=Canada/Eastern
     volumes:
       - ./src:/src
       - ./tests:/tests

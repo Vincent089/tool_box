@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CONF_IPGroup>
+<IPGroups ip_group_desc="Telecom Internal (xx) - G36381 - CGI-Corpo - No Billing (Reporting - aaa-User)" ip_group_name="aaa-User" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="1.1.1.1" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.141.134" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.133"/>
+</IPGroups>
+<IPGroups ip_group_desc="G36443 - Interac - 300000000039487" ip_group_name="Acxsys" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.22.39" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.136" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.250" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.111" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.116" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.119" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.105" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.231" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.100" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.232" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.43" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.122" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.35" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.175" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.28.215" flag="Include" netmask_addr_id="255.255.254.0" start_addr_id="64.254.28.204"/>
+<GrpIPRange end_addr_id="64.254.29.76" flag="Include" netmask_addr_id="255.255.254.0" start_addr_id="64.254.29.73"/>
+<GrpIPRange end_addr_id="159.18.220.126" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.120"/>
+<GrpIPRange end_addr_id="159.18.220.92" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.91"/>
+<GrpIPRange end_addr_id="64.254.29.147" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.142"/>
+<GrpIPRange end_addr_id="64.254.29.17" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.16"/>
+<GrpIPRange end_addr_id="64.254.29.25" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.20"/>
+<GrpIPRange end_addr_id="64.254.28.186" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.181"/>
+<GrpIPRange end_addr_id="64.254.22.157" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.151"/>
+<GrpIPRange end_addr_id="64.254.22.149" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.145"/>
+<GrpIPRange end_addr_id="64.254.22.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.119"/>
+<GrpIPRange end_addr_id="64.254.22.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.111"/>
+<GrpIPRange end_addr_id="64.254.22.75" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.74"/>
+<GrpIPRange end_addr_id="64.254.22.102" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.98"/>
+<GrpIPRange end_addr_id="64.254.22.90" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.83"/>
+<GrpIPRange end_addr_id="64.254.22.200" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.185"/>
+<GrpIPRange end_addr_id="128.129.40.31" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.16"/>
+<GrpIPRange end_addr_id="64.254.22.209" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.207"/>
+<GrpIPRange end_addr_id="64.254.23.207" flag="Include" netmask_addr_id="255.255.254.0" start_addr_id="64.254.23.192"/>
+<GrpIPRange end_addr_id="159.18.220.140" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.139"/>
+<GrpIPRange end_addr_id="159.18.220.144" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.143"/>
+<GrpIPRange end_addr_id="159.18.220.200" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.193"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G69193 - AECL - No Billing (incl. in cloud)" ip_group_name="AECL Atomic Energy Of Canada Limited" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.4.119" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.4.114"/>
+<GrpIPRange end_addr_id="64.254.4.112" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.4.100"/>
+</IPGroups>
+<IPGroups ip_group_desc="G15646 - Agropur Cooperative - 11971001" ip_group_name="Agropur" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.17" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.226" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G42494 - Air Canada - No Mandate" ip_group_name="Air Canada" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Alcan PMG Wheaton - No Billing (10396028)" ip_group_name="Alcan PMG - Wheaton" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.17.87" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.25" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.111" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.177" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.100" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.168" flag="Include"/>
+<GrpIPRange end_addr_id="66.110.6.217" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.216"/>
+<GrpIPRange end_addr_id="64.254.17.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.102"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - ASP Sante - No Mandate" ip_group_name="ASP Sante" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.86.140.253" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.250"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - AXA - No Billing (5175012)" ip_group_name="AXA" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G48731 - BDC - 300000000003659" ip_group_name="BDC" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.13.135" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.210" flag="Include"/>
+<GrpIPRange end_addr_id="66.110.7.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.70"/>
+<GrpIPRange end_addr_id="64.254.13.133" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.131"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (BK) - G31182 - RSA - No Billing (Reporting - All Outbound RSA User Traffic)" ip_group_name="BK All Outbound RSA User Traffic" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.16.103" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (BK) - G31182 - RSA - No Billing (Reporting - All Guest Wireless RSA Traffic)" ip_group_name="BK RSA All Guest Wireless RSA Traffic" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.16.181" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G43754 - BLC - 6444202" ip_group_name="BLC" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.69" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G15532 - BNC - No Billing (11633100)" ip_group_name="BNC" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G20006 - Bombardier BA - No Billing  (4721956)" ip_group_name="Bombardier" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.65" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.78" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.81" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.85" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.89" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.91" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.190" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.201" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.205" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.141.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.124"/>
+<GrpIPRange end_addr_id="142.19.60.14" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="142.19.60.1"/>
+<GrpIPRange end_addr_id="142.19.60.1" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="142.19.60.1"/>
+<GrpIPRange end_addr_id="64.86.141.27" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.25"/>
+<GrpIPRange end_addr_id="64.86.140.73" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.72"/>
+<GrpIPRange end_addr_id="64.86.140.76" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.75"/>
+<GrpIPRange end_addr_id="64.86.140.50" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.49"/>
+<GrpIPRange end_addr_id="64.86.140.61" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.60"/>
+<GrpIPRange end_addr_id="64.86.140.58" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.56"/>
+<GrpIPRange end_addr_id="64.86.140.23" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.22"/>
+</IPGroups>
+<IPGroups ip_group_desc="G60498 - Bombardier BRP - 5183126" ip_group_name="Bombardier Récréatif" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.16.199" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.207" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.209" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.61" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.32" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.29" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.141" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.91" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.81" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.79" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.59" flag="Include"/>
+<GrpIPRange end_addr_id="128.129.40.254" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.248"/>
+<GrpIPRange end_addr_id="64.254.17.247" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.246"/>
+<GrpIPRange end_addr_id="64.254.22.19" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.17"/>
+<GrpIPRange end_addr_id="64.254.17.36" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.35"/>
+<GrpIPRange end_addr_id="64.254.16.224" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.222"/>
+<GrpIPRange end_addr_id="64.254.23.48" flag="Include" netmask_addr_id="55.255.255.0" start_addr_id="64.254.23.47"/>
+<GrpIPRange end_addr_id="64.254.17.24" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.2"/>
+<GrpIPRange end_addr_id="64.254.16.74" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.73"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Bristol Myers - No Mandate" ip_group_name="Bristol Myers" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.228" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.227" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G82154 - CAE - 10205039" ip_group_name="CAE" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.91" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.28.88" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.87"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-CPC - No Mandate (canadapost - border - 8489220)" ip_group_name="canadapost - border" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="198.34.224.1" flag="Include"/>
+<GrpIPAddress addr_id="198.34.224.130" flag="Include"/>
+<GrpIPAddress addr_id="198.34.224.131" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.214" flag="Include"/>
+<GrpIPRange end_addr_id="198.34.224.45" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.11"/>
+<GrpIPRange end_addr_id="198.34.224.114" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.47"/>
+<GrpIPRange end_addr_id="198.34.224.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.117"/>
+<GrpIPRange end_addr_id="198.34.224.169" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.146"/>
+<GrpIPRange end_addr_id="198.34.224.199" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.184"/>
+<GrpIPRange end_addr_id="198.34.224.254" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.203"/>
+<GrpIPRange end_addr_id="198.34.224.9" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.4"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-CPC - No Mandate (canadapost - cpcvpn)" ip_group_name="canadapost - cpcvpn" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.17.70" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.65"/>
+<GrpIPRange end_addr_id="64.254.17.63" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.62"/>
+</IPGroups>
+<IPGroups ip_group_desc="canadapost - OBC/Wgate" ip_group_name="canadapost - OBC/Wgate" ip_group_speed="1000000000">
+<Selected_Devices>
+<Router Router_Name="whmc40794">
+<Interface interface_name="Bundle-Ether1.777"/>
+<Interface interface_name="IfIndex35"/>
+</Router>
+<Router Router_Name="shrdinet_tor_r02">
+<Interface interface_name="Null0"/>
+<Interface interface_name="IfIndex2"/>
+</Router>
+<Router Router_Name="shrdinet_tor_r01">
+<Interface interface_name="IfIndex2"/>
+<Interface interface_name="Null0"/>
+</Router>
+<Router Router_Name="whmc40975">
+<Interface interface_name="Bundle-Ether1.555"/>
+<Interface interface_name="Bundle-Ether1.777"/>
+</Router>
+</Selected_Devices>
+<GrpIPAddress addr_id="64.86.140.203" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.199" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.38" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.207" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-CPC - No Mandate (canadapost - project fetch (pilot))" ip_group_name="canadapost - projet fetch (pilot)" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-CPC - No Mandate (canadapost ca)" ip_group_name="canadapost ca" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="66.110.6.186" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.226" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.234" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.247" flag="Include"/>
+<GrpIPAddress addr_id="198.34.224.10" flag="Include"/>
+<GrpIPAddress addr_id="198.34.224.46" flag="Include"/>
+<GrpIPAddress addr_id="198.34.224.180" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.217" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.196" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.19" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.38" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.40" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.59" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.61" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.70" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.103" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.232" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.144" flag="Include"/>
+<GrpIPAddress addr_id="198.34.224.220" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.131" flag="Include"/>
+<GrpIPRange end_addr_id="198.34.224.145" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.142"/>
+<GrpIPRange end_addr_id="198.34.224.140" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.132"/>
+<GrpIPRange end_addr_id="198.34.224.129" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.128"/>
+<GrpIPRange end_addr_id="66.110.6.14" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.8"/>
+<GrpIPRange end_addr_id="66.110.6.82" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.80"/>
+<GrpIPRange end_addr_id="66.110.6.32" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.21"/>
+<GrpIPRange end_addr_id="64.254.17.251" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.249"/>
+<GrpIPRange end_addr_id="198.34.224.202" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.200"/>
+<GrpIPRange end_addr_id="66.110.6.238" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.236"/>
+<GrpIPRange end_addr_id="66.110.6.252" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.250"/>
+<GrpIPRange end_addr_id="66.110.6.242" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.241"/>
+<GrpIPRange end_addr_id="198.34.224.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.115"/>
+<GrpIPRange end_addr_id="198.34.224.3" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.2"/>
+<GrpIPRange end_addr_id="66.110.6.138" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.137"/>
+<GrpIPRange end_addr_id="66.110.6.174" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.170"/>
+<GrpIPRange end_addr_id="66.110.6.152" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.151"/>
+<GrpIPRange end_addr_id="66.110.6.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.113"/>
+<GrpIPRange end_addr_id="66.110.6.89" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.88"/>
+<GrpIPRange end_addr_id="66.110.6.57" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.49"/>
+<GrpIPRange end_addr_id="66.110.6.46" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.43"/>
+<GrpIPRange end_addr_id="66.110.6.35" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.34"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-CPC - No Mandate (canadapost.ca - Internet)" ip_group_name="canadapost ca internet" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="66.110.7.182" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.33" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.42" flag="Include"/>
+<GrpIPRange end_addr_id="198.34.224.212" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.206"/>
+<GrpIPRange end_addr_id="66.110.6.119" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.117"/>
+<GrpIPRange end_addr_id="64.254.16.212" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.211"/>
+<GrpIPRange end_addr_id="64.254.16.216" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.215"/>
+<GrpIPRange end_addr_id="64.254.16.221" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.218"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-CPC - No Mandate (canadapost - OBC/Wgate)" ip_group_name="canadapost OBC Wgate" ip_group_speed="1000000000">
+<Selected_Devices>
+<Router Router_Name="whmc40794">
+<Interface interface_name="Bundle-Ether1.777"/>
+</Router>
+<Router Router_Name="whmc40975">
+<Interface interface_name="Bundle-Ether1.777"/>
+</Router>
+</Selected_Devices>
+<GrpIPAddress addr_id="64.86.140.199" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.203" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.207" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.38" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G22433 - CDPQ - 5003600" ip_group_name="CDPQ" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.49" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.43" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.33" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.30" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.168" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.40" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.140.239" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.237"/>
+<GrpIPRange end_addr_id="64.86.141.47" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.46"/>
+<GrpIPRange end_addr_id="64.86.141.37" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.36"/>
+<GrpIPRange end_addr_id="66.110.6.197" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.192"/>
+<GrpIPRange end_addr_id="66.110.6.17" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.15"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Centraide - No Mandate" ip_group_name="Centraide" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.163" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.165" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G26087 - CGI-CANGTA (IIS) - 000000000111732" ip_group_name="CGI  IIS" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="207.245.13.105" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.27" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.26" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.25" flag="Include"/>
+<GrpIPAddress addr_id="216.191.142.32" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.24" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.104" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.103" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.101" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.86" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.55" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.124" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.34" flag="Include"/>
+<GrpIPAddress addr_id="207.245.13.129" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G36381 - CGI-Corpo - 13343217" ip_group_name="CGI - Corpo" ip_group_speed="4000000000">
+<GrpIPAddress addr_id="64.254.23.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.59" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.20" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.28" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.63" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.185" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.70" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.94" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.97" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.101" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.240" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.47" flag="Include"/>
+<GrpIPAddress addr_id="64.110.6.4" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.220" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.18" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.24" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.250" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.107" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.119" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.121" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.134" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.207" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.220" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.223" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.243" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.245" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.63" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.243" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.39" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.110" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.190" flag="Include"/>
+<GrpIPAddress addr_id="66.110.7.9" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.234" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.140" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.200" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.108" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.124" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.159" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.130" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.132" flag="Include"/>
+<GrpIPAddress addr_id="64.254.6.13" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.63" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.161" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.178" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.40" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.48" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.95" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.110" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.112" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.161" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.170" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.37" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.218" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.10" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.37" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.43" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.73" flag="Include"/>
+<GrpIPAddress addr_id="199.84.60.43" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.234" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.23" flag="Include"/>
+<GrpIPAddress addr_id="64.254.21.125" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.69" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.26" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.32" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.50" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.103" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.31.225" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.117" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.218" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.179" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.51" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.133" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.36" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.59" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.197" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.199" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.201" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.74" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.92" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.133" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.134" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.141" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.175" flag="Include"/>
+<GrpIPAddress addr_id="64.254.5.23" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.71" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.87" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.186" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.2" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.18" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.59" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.250" flag="Include"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.240" network_addr_id="128.129.49.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="192.219.99.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="204.107.153.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="198.168.2.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="128.129.48.0"/>
+<GrpIPRange end_addr_id="64.254.19.169" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.168"/>
+<GrpIPRange end_addr_id="64.254.17.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.230"/>
+<GrpIPRange end_addr_id="64.254.22.184" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.176"/>
+<GrpIPRange end_addr_id="128.129.48.9" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.7"/>
+<GrpIPRange end_addr_id="64.254.18.139" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.130"/>
+<GrpIPRange end_addr_id="128.129.48.26" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.20"/>
+<GrpIPRange end_addr_id="128.129.48.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.1"/>
+<GrpIPRange end_addr_id="199.84.60.124" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="199.84.60.123"/>
+<GrpIPRange end_addr_id="159.18.221.210" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.221.209"/>
+<GrpIPRange end_addr_id="159.18.221.216" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.221.215"/>
+<GrpIPRange end_addr_id="64.86.141.21" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.20"/>
+<GrpIPRange end_addr_id="64.86.141.245" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.241"/>
+<GrpIPRange end_addr_id="64.254.17.227" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.225"/>
+<GrpIPRange end_addr_id="64.254.17.201" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.200"/>
+<GrpIPRange end_addr_id="64.86.141.89" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.88"/>
+<GrpIPRange end_addr_id="64.254.17.158" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.152"/>
+<GrpIPRange end_addr_id="64.254.17.78" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.77"/>
+<GrpIPRange end_addr_id="64.254.17.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.71"/>
+<GrpIPRange end_addr_id="66.110.7.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.71"/>
+<GrpIPRange end_addr_id="128.129.48.33" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.30"/>
+<GrpIPRange end_addr_id="64.254.22.173" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.171"/>
+<GrpIPRange end_addr_id="128.129.48.46" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.45"/>
+<GrpIPRange end_addr_id="64.254.22.250" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.246"/>
+<GrpIPRange end_addr_id="128.129.40.101" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.99"/>
+<GrpIPRange end_addr_id="64.254.17.176" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.174"/>
+<GrpIPRange end_addr_id="64.254.18.216" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.215"/>
+<GrpIPRange end_addr_id="64.254.18.19" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.18"/>
+<GrpIPRange end_addr_id="64.254.18.241" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.236"/>
+<GrpIPRange end_addr_id="64.254.18.171" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.170"/>
+<GrpIPRange end_addr_id="64.254.18.97" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.92"/>
+<GrpIPRange end_addr_id="64.254.18.74" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.70"/>
+<GrpIPRange end_addr_id="64.254.19.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.182"/>
+<GrpIPRange end_addr_id="64.254.18.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.5"/>
+<GrpIPRange end_addr_id="64.254.18.90" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.89"/>
+<GrpIPRange end_addr_id="64.254.22.73" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.72"/>
+<GrpIPRange end_addr_id="64.254.28.15" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.13"/>
+<GrpIPRange end_addr_id="64.254.16.87" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.80"/>
+<GrpIPRange end_addr_id="64.86.141.181" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.179"/>
+<GrpIPRange end_addr_id="64.86.141.195" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.192"/>
+<GrpIPRange end_addr_id="128.129.48.83" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.83"/>
+<GrpIPRange end_addr_id="64.86.140.159" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.156"/>
+<GrpIPRange end_addr_id="64.86.140.119" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.119"/>
+<GrpIPRange end_addr_id="66.110.6.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.230"/>
+<GrpIPRange end_addr_id="66.110.7.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.5"/>
+<GrpIPRange end_addr_id="66.110.7.32" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.30"/>
+<GrpIPRange end_addr_id="66.110.7.22" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.20"/>
+<GrpIPRange end_addr_id="66.110.7.112" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.110"/>
+<GrpIPRange end_addr_id="66.110.7.219" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.192"/>
+<GrpIPRange end_addr_id="64.254.23.12" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.23.11"/>
+<GrpIPRange end_addr_id="128.129.40.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.126"/>
+<GrpIPRange end_addr_id="64.86.141.252" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.247"/>
+<GrpIPRange end_addr_id="64.86.141.148" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.145"/>
+<GrpIPRange end_addr_id="64.86.141.9" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.4"/>
+<GrpIPRange end_addr_id="64.86.141.108" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.105"/>
+<GrpIPRange end_addr_id="64.86.141.137" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.131"/>
+<GrpIPRange end_addr_id="64.86.141.142" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.139"/>
+<GrpIPRange end_addr_id="64.86.141.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.228"/>
+<GrpIPRange end_addr_id="64.86.141.238" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.237"/>
+<GrpIPRange end_addr_id="64.86.141.190" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.187"/>
+<GrpIPRange end_addr_id="64.86.141.176" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.175"/>
+<GrpIPRange end_addr_id="128.129.48.78" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.77"/>
+<GrpIPRange end_addr_id="64.254.22.223" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.220"/>
+<GrpIPRange end_addr_id="64.86.140.143" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.140"/>
+<GrpIPRange end_addr_id="64.86.140.136" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.134"/>
+<GrpIPRange end_addr_id="64.86.140.121" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.120"/>
+<GrpIPRange end_addr_id="128.129.48.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.114"/>
+<GrpIPRange end_addr_id="64.254.19.190" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="64.254.19.189"/>
+<GrpIPRange end_addr_id="66.110.6.96" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.95"/>
+<GrpIPRange end_addr_id="64.254.22.167" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.162"/>
+<GrpIPRange end_addr_id="128.129.48.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.100"/>
+<GrpIPRange end_addr_id="64.254.31.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.182"/>
+<GrpIPRange end_addr_id="64.254.24.18" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.17"/>
+<GrpIPRange end_addr_id="64.254.22.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.76"/>
+<GrpIPRange end_addr_id="64.254.19.91" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.90"/>
+<GrpIPRange end_addr_id="64.254.19.153" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.150"/>
+<GrpIPRange end_addr_id="64.254.19.128" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.126"/>
+<GrpIPRange end_addr_id="64.254.19.99" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.93"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI - GTA" ip_group_name="CGI - GTA" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI - Nters" ip_group_name="CGI - Nters" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.49" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.48" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.210" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.235" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI - TechDoc" ip_group_name="CGI - TechDoc" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.193" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.194" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI - Transition - Cognicase" ip_group_name="CGI - Transition - Cognicase" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="66.110.6.204" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.209" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.208" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.207" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.206" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.201" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.200" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.150" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.205" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.203" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.202" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - Gxxxxx - CGI Cat - No Billing (See CGI SI GIT)" ip_group_name="CGI Cat" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (JB) - G36381 - CGI-Corpo - No Billing (Reporting - DDN Canada - do no change this group)" ip_group_name="CGI Corpo  members Internet" ip_group_speed="2000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.240" network_addr_id="128.129.49.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.240" network_addr_id="204.107.153.64"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (JB) - G36381 - CGI-Corpo - No Billing (Reporting - Enterprise Internet - removed VPN and members - do no change this group)" ip_group_name="CGI Corpo Enterprise" ip_group_speed="4000000000">
+<GrpIPAddress addr_id="64.254.28.37" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.218" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.10" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.37" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.43" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.73" flag="Include"/>
+<GrpIPAddress addr_id="199.84.60.43" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.234" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.23" flag="Include"/>
+<GrpIPAddress addr_id="64.254.21.125" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.69" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.71" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.87" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.186" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.2" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.18" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.59" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.250" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.250" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.59" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.20" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.28" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.63" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.185" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.94" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.97" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.101" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.240" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.47" flag="Include"/>
+<GrpIPAddress addr_id="64.110.6.4" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.220" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.18" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.24" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.26" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.32" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.50" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.103" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.31.225" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.117" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.179" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.51" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.36" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.59" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.197" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.199" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.201" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.74" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.92" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.107" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.119" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.121" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.134" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.207" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.220" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.223" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.243" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.245" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.63" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.243" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.39" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.110" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.190" flag="Include"/>
+<GrpIPAddress addr_id="66.110.7.9" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.234" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.140" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.200" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.108" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.124" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.159" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.130" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.132" flag="Include"/>
+<GrpIPAddress addr_id="64.254.6.13" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.63" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.161" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.178" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.40" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.48" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.95" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.110" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.112" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.161" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.170" flag="Include"/>
+<GrpIPRange end_addr_id="66.110.7.22" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.20"/>
+<GrpIPRange end_addr_id="66.110.7.112" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.110"/>
+<GrpIPRange end_addr_id="66.110.7.219" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.192"/>
+<GrpIPRange end_addr_id="64.254.22.249" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.246"/>
+<GrpIPRange end_addr_id="66.110.7.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.71"/>
+<GrpIPRange end_addr_id="64.254.23.12" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.23.11"/>
+<GrpIPRange end_addr_id="64.86.141.108" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.105"/>
+<GrpIPRange end_addr_id="64.86.141.137" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.131"/>
+<GrpIPRange end_addr_id="64.86.141.142" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.139"/>
+<GrpIPRange end_addr_id="64.86.141.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.228"/>
+<GrpIPRange end_addr_id="64.86.141.238" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.237"/>
+<GrpIPRange end_addr_id="64.86.141.190" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.187"/>
+<GrpIPRange end_addr_id="64.86.141.176" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.175"/>
+<GrpIPRange end_addr_id="128.129.48.78" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.77"/>
+<GrpIPRange end_addr_id="64.254.22.223" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.220"/>
+<GrpIPRange end_addr_id="64.86.140.143" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.140"/>
+<GrpIPRange end_addr_id="64.86.140.136" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.134"/>
+<GrpIPRange end_addr_id="64.254.19.99" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.93"/>
+<GrpIPRange end_addr_id="64.254.19.169" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.168"/>
+<GrpIPRange end_addr_id="64.254.17.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.230"/>
+<GrpIPRange end_addr_id="64.254.22.184" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.176"/>
+<GrpIPRange end_addr_id="128.129.48.9" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.7"/>
+<GrpIPRange end_addr_id="64.254.18.139" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.130"/>
+<GrpIPRange end_addr_id="128.129.48.26" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.20"/>
+<GrpIPRange end_addr_id="128.129.48.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.1"/>
+<GrpIPRange end_addr_id="199.84.60.124" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="199.84.60.123"/>
+<GrpIPRange end_addr_id="159.18.221.210" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.221.209"/>
+<GrpIPRange end_addr_id="159.18.221.216" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.221.215"/>
+<GrpIPRange end_addr_id="64.86.141.21" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.20"/>
+<GrpIPRange end_addr_id="64.86.141.245" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.241"/>
+<GrpIPRange end_addr_id="64.254.17.227" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.225"/>
+<GrpIPRange end_addr_id="64.254.17.201" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.200"/>
+<GrpIPRange end_addr_id="64.86.141.89" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.88"/>
+<GrpIPRange end_addr_id="64.254.17.158" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.152"/>
+<GrpIPRange end_addr_id="64.254.17.78" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.77"/>
+<GrpIPRange end_addr_id="64.254.17.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.71"/>
+<GrpIPRange end_addr_id="64.254.16.87" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.80"/>
+<GrpIPRange end_addr_id="64.86.141.181" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.179"/>
+<GrpIPRange end_addr_id="64.86.141.195" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.192"/>
+<GrpIPRange end_addr_id="128.129.48.83" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.83"/>
+<GrpIPRange end_addr_id="64.86.140.159" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.156"/>
+<GrpIPRange end_addr_id="64.86.140.119" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.119"/>
+<GrpIPRange end_addr_id="66.110.6.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.230"/>
+<GrpIPRange end_addr_id="66.110.7.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.5"/>
+<GrpIPRange end_addr_id="128.129.40.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.126"/>
+<GrpIPRange end_addr_id="64.86.141.252" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.247"/>
+<GrpIPRange end_addr_id="64.86.141.148" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.145"/>
+<GrpIPRange end_addr_id="64.86.141.9" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.4"/>
+<GrpIPRange end_addr_id="64.86.140.121" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.120"/>
+<GrpIPRange end_addr_id="128.129.48.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.114"/>
+<GrpIPRange end_addr_id="128.129.48.33" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.30"/>
+<GrpIPRange end_addr_id="64.254.22.173" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.171"/>
+<GrpIPRange end_addr_id="128.129.48.46" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.45"/>
+<GrpIPRange end_addr_id="128.129.40.101" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.99"/>
+<GrpIPRange end_addr_id="64.254.17.176" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.174"/>
+<GrpIPRange end_addr_id="64.254.18.216" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.215"/>
+<GrpIPRange end_addr_id="64.254.18.19" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.18"/>
+<GrpIPRange end_addr_id="64.254.18.241" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.236"/>
+<GrpIPRange end_addr_id="64.254.18.171" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.170"/>
+<GrpIPRange end_addr_id="64.254.18.97" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.92"/>
+<GrpIPRange end_addr_id="64.254.18.74" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.70"/>
+<GrpIPRange end_addr_id="64.254.19.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.182"/>
+<GrpIPRange end_addr_id="64.254.18.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.5"/>
+<GrpIPRange end_addr_id="64.254.18.90" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.89"/>
+<GrpIPRange end_addr_id="64.254.22.73" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.72"/>
+<GrpIPRange end_addr_id="64.254.28.15" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.13"/>
+<GrpIPRange end_addr_id="66.110.6.96" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.95"/>
+<GrpIPRange end_addr_id="64.254.22.167" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.162"/>
+<GrpIPRange end_addr_id="128.129.48.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.100"/>
+<GrpIPRange end_addr_id="64.254.31.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.182"/>
+<GrpIPRange end_addr_id="64.254.24.18" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.17"/>
+<GrpIPRange end_addr_id="64.254.22.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.76"/>
+<GrpIPRange end_addr_id="64.254.19.91" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.90"/>
+<GrpIPRange end_addr_id="64.254.19.153" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.150"/>
+<GrpIPRange end_addr_id="64.254.19.128" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.126"/>
+</IPGroups>
+<IPGroups ip_group_desc="Legacy - RNAS2 TOR and MTL" ip_group_name="CGI Corpo RNAS2" ip_group_speed="250000000">
+<GrpIPAddress addr_id="66.110.7.30" flag="Include"/>
+<GrpIPAddress addr_id="159.18.221.206" flag="Include"/>
+<GrpIPAddress addr_id="159.18.221.205" flag="Include"/>
+<GrpIPAddress addr_id="159.18.221.204" flag="Include"/>
+<GrpIPAddress addr_id="66.110.7.32" flag="Include"/>
+<GrpIPAddress addr_id="66.110.7.31" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (JB) - G36381 - CGI-Corpo - No Billing (Reporting - UA-Connect MTL and TOR - do no change this group)" ip_group_name="CGI Corpo UA Connect" ip_group_speed="2000000000">
+<GrpIPAddress addr_id="64.254.22.250" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.33" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (JB) - G36381 - CGI-Corpo - No Billing (Reporting - UA-Lite MTL only - do no change this group)" ip_group_name="CGI Corpo UA Lite" ip_group_speed="100000000">
+<GrpIPAddress addr_id="64.254.22.178" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (JB) - G36381 - CGI-Corpo - No Billing (Reporting - UA-RNAS MTL and TOR - do no change this group)" ip_group_name="CGI Corpo UA RNAS" ip_group_speed="2000000000">
+<GrpIPAddress addr_id="64.254.22.248" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.218" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G54766 - CGI-GTOCA (Practice - 10649-B-Storage) - 13399009" ip_group_name="CGI CTI Storage" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.20" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.206" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.123" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.170" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.149" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.92" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.28.98" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.95"/>
+<GrpIPRange end_addr_id="66.110.6.66" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.64"/>
+<GrpIPRange end_addr_id="64.254.28.125" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.124"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI - GMA - Paiement" ip_group_name="CGI GMA Paiement" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.120" flag="Include"/>
+<GrpIPAddress addr_id="64.254.13.220" flag="Include"/>
+<GrpIPAddress addr_id="64.254.0.130" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.122" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.16.44" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.40"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CGI-GMA - No Billing (CGI Joncquiere)" ip_group_name="CGI Joncquiere" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.117" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.96" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI Region Montreal" ip_group_name="CGI Region Montreal" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.100" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI SAE" ip_group_name="CGI SAE" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.95" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.88" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.19" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.99" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.118" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.180" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.52" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI -GTOCA (To be determined)" ip_group_name="CGI SI GIT" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.17.94" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.196" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.105" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.107" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.19" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.88" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.180" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.150" flag="Include"/>
+<GrpIPAddress addr_id="216.191.240.190" flag="Include"/>
+<GrpIPAddress addr_id="216.191.240.145" flag="Include"/>
+<GrpIPAddress addr_id="66.38.180.1" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.89" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.111" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.123" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.106" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.219" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.80" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.148" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.98" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.221" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.240" flag="Include"/>
+<GrpIPAddress addr_id="66.110.7.220" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.7" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.69" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.69" flag="Include"/>
+<GrpIPAddress addr_id="64.254.0.62" flag="Include"/>
+<GrpIPAddress addr_id="64.254.0.6" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.253" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.71" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.20" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.48" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.74" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.41" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.64" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.62" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.5" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.79" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.235" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.210" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.48" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.196" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.114" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.140.100" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.99"/>
+<GrpIPRange end_addr_id="66.110.6.209" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.200"/>
+<GrpIPRange end_addr_id="64.254.28.10" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.1"/>
+<GrpIPRange end_addr_id="64.254.19.48" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.46"/>
+<GrpIPRange end_addr_id="64.254.28.158" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.152"/>
+<GrpIPRange end_addr_id="64.254.28.67" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.64"/>
+<GrpIPRange end_addr_id="64.254.19.43" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.37"/>
+<GrpIPRange end_addr_id="64.254.7.66" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.7.62"/>
+<GrpIPRange end_addr_id="64.254.16.193" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.190"/>
+<GrpIPRange end_addr_id="64.254.17.191" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.190"/>
+<GrpIPRange end_addr_id="64.254.17.254" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.252"/>
+<GrpIPRange end_addr_id="64.254.18.10" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.7"/>
+<GrpIPRange end_addr_id="64.254.18.16" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.15"/>
+<GrpIPRange end_addr_id="64.254.17.210" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.209"/>
+<GrpIPRange end_addr_id="64.254.17.148" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.147"/>
+<GrpIPRange end_addr_id="64.254.19.167" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.166"/>
+<GrpIPRange end_addr_id="66.110.7.61" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.60"/>
+<GrpIPRange end_addr_id="128.129.40.3" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.1"/>
+<GrpIPRange end_addr_id="64.254.28.245" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.242"/>
+<GrpIPRange end_addr_id="64.254.28.151" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.150"/>
+<GrpIPRange end_addr_id="64.254.28.106" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.102"/>
+<GrpIPRange end_addr_id="64.254.28.115" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.113"/>
+<GrpIPRange end_addr_id="64.254.29.5" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.5"/>
+<GrpIPRange end_addr_id="64.254.29.217" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.215"/>
+<GrpIPRange end_addr_id="64.86.140.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.102"/>
+<GrpIPRange end_addr_id="64.86.141.39" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.38"/>
+<GrpIPRange end_addr_id="64.86.140.118" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.117"/>
+<GrpIPRange end_addr_id="64.86.140.96" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.95"/>
+<GrpIPRange end_addr_id="64.86.140.194" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.193"/>
+</IPGroups>
+<IPGroups ip_group_desc="G45501 - CGI-CANGTA (ICS) - 000000000111783" ip_group_name="CGI – ICS" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.4" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI Ottawa" ip_group_name="CGI-Ottawa" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.159" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.207" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.184" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.192" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.106" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.129" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.133" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.24.254" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.216"/>
+<GrpIPRange end_addr_id="64.254.24.199" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.167"/>
+<GrpIPRange end_addr_id="64.254.24.27" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.26"/>
+<GrpIPRange end_addr_id="64.254.24.89" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.1"/>
+<GrpIPRange end_addr_id="64.254.24.149" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.138"/>
+<GrpIPRange end_addr_id="64.254.24.99" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.91"/>
+<GrpIPRange end_addr_id="64.254.24.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.101"/>
+<GrpIPRange end_addr_id="64.254.24.122" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.118"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI-PSP" ip_group_name="CGI-PSP" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.16.230" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CGIC (Co-Operators General Insurance Co.) - No Mandate" ip_group_name="CGIC" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.19.21" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.20"/>
+</IPGroups>
+<IPGroups ip_group_desc="G73618 - CIBC CMO - 000000000114772" ip_group_name="CIBC CMO" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.21.55" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.254" flag="Include"/>
+<GrpIPAddress addr_id="64.254.26.20" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.201" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.53" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.186" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.44" flag="Include"/>
+<GrpIPAddress addr_id="64.254.21.95" flag="Include"/>
+<GrpIPAddress addr_id="64.254.26.25" flag="Include"/>
+<GrpIPAddress addr_id="64.254.26.10" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.2" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.67" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.24.106" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.105"/>
+<GrpIPRange end_addr_id="64.254.24.178" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.177"/>
+<GrpIPRange end_addr_id="64.254.24.87" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.81"/>
+<GrpIPRange end_addr_id="64.254.31.224" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.217"/>
+<GrpIPRange end_addr_id="64.254.21.93" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.21.80"/>
+<GrpIPRange end_addr_id="64.254.22.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.228"/>
+<GrpIPRange end_addr_id="64.254.24.25" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.22"/>
+<GrpIPRange end_addr_id="64.254.24.97" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.91"/>
+<GrpIPRange end_addr_id="64.254.26.31" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.26.30"/>
+<GrpIPRange end_addr_id="64.254.24.227" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.222"/>
+<GrpIPRange end_addr_id="64.254.24.49" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.46"/>
+<GrpIPRange end_addr_id="64.254.26.16" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.26.15"/>
+<GrpIPRange end_addr_id="64.254.28.31" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.28"/>
+<GrpIPRange end_addr_id="64.254.31.181" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.172"/>
+<GrpIPRange end_addr_id="64.254.24.63" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.57"/>
+<GrpIPRange end_addr_id="64.254.29.15" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.14"/>
+<GrpIPRange end_addr_id="64.254.24.15" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.14"/>
+<GrpIPRange end_addr_id="64.254.31.237" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.228"/>
+<GrpIPRange end_addr_id="64.254.31.252" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.251"/>
+<GrpIPRange end_addr_id="64.254.31.191" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.190"/>
+<GrpIPRange end_addr_id="64.254.31.237" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.235"/>
+<GrpIPRange end_addr_id="64.254.24.182" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.179"/>
+<GrpIPRange end_addr_id="66.110.7.86" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="66.110.7.72"/>
+<GrpIPRange end_addr_id="66.110.7.109" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="66.110.7.88"/>
+<GrpIPRange end_addr_id="66.110.7.127" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="66.110.7.113"/>
+<GrpIPRange end_addr_id="66.110.7.154" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="66.110.7.152"/>
+<GrpIPRange end_addr_id="128.129.40.202" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="128.129.40.201"/>
+<GrpIPRange end_addr_id="66.110.7.71" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="66.110.7.67"/>
+<GrpIPRange end_addr_id="64.254.24.185" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.183"/>
+<GrpIPRange end_addr_id="128.129.40.200" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.197"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CDS (Cirque du Soleil) - No Mandate" ip_group_name="Cirque du Soleil" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G21206 - CGI-USCSG (CIU) - 300000000005474" ip_group_name="CIU" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.17.128" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.156" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.206" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.185" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.181" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G65197 - CGI-GTOCA (Practice - 10610-B-Cloud Computing) - No Billing (Cloud v1)" ip_group_name="Cloud V1" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.19.136" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.214" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.44" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.125" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.138" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.19.101" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.100"/>
+<GrpIPRange end_addr_id="64.254.19.88" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.82"/>
+<GrpIPRange end_addr_id="64.254.19.77" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.70"/>
+<GrpIPRange end_addr_id="64.254.19.62" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.49"/>
+<GrpIPRange end_addr_id="64.254.18.234" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.217"/>
+<GrpIPRange end_addr_id="64.254.19.132" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.129"/>
+<GrpIPRange end_addr_id="64.254.19.18" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.4"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G65197 - CGI-GTOCA (Practice - 10610-B-Cloud Computing) - No Billing (Cloud v2)" ip_group_name="Cloud V2" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.19.1" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.243" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.18.12" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.11"/>
+<GrpIPRange end_addr_id="64.254.13.93" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.65"/>
+<GrpIPRange end_addr_id="64.254.18.88" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.82"/>
+<GrpIPRange end_addr_id="64.254.18.198" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.189"/>
+<GrpIPRange end_addr_id="64.254.19.30" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.27"/>
+<GrpIPRange end_addr_id="64.254.18.205" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.200"/>
+<GrpIPRange end_addr_id="64.254.18.186" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.177"/>
+<GrpIPRange end_addr_id="64.254.18.129" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.128"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G65197 - CGI-GTOCA (Practice - 10610-B-Cloud Computing) - No Billing (Cloud v2 and G3)" ip_group_name="Cloudv2" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="64.254.4.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="64.254.6.0"/>
+</IPGroups>
+<IPGroups ip_group_desc="Cognicase Outsourcing" ip_group_name="Cognicase Outsourcing" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.13.134" flag="Include"/>
+<GrpIPAddress addr_id="64.254.15.135" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.13.254" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.221"/>
+<GrpIPRange end_addr_id="64.254.13.130" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.127"/>
+<GrpIPRange end_addr_id="64.254.13.219" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.136"/>
+<GrpIPRange end_addr_id="64.254.13.112" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.1"/>
+</IPGroups>
+<IPGroups ip_group_desc="G70041 - CGI-FISG (C360) - 300000000005475" ip_group_name="Collections360 C360" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.19.112" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.124" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.137" flag="Include"/>
+<GrpIPAddress addr_id="64.254.20.67" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.20.154" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.150"/>
+<GrpIPRange end_addr_id="64.254.20.202" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="64.254.20.201"/>
+<GrpIPRange end_addr_id="64.254.20.120" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.116"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G96840 - Comark - No Mandate" ip_group_name="Comark" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="159.18.220.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.225"/>
+<GrpIPRange end_addr_id="64.254.21.223" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.21.208"/>
+<GrpIPRange end_addr_id="159.18.220.155" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.153"/>
+<GrpIPRange end_addr_id="64.254.29.28" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.26"/>
+</IPGroups>
+<IPGroups ip_group_desc="G70087 - Conexus Credit Union - 300000000004877" ip_group_name="Conexus Credit Union" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.40.76" flag="Include"/>
+<GrpIPRange end_addr_id="128.129.40.109" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.107"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Cott - No Mandate" ip_group_name="Cott" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G45217 - CPA (Payments Canada) - 300000000025453" ip_group_name="CPA -Canadian Payment Association" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.70" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Croix Bleue - No Mandate" ip_group_name="Croix Bleue" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.15.11" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.15.10"/>
+</IPGroups>
+<IPGroups ip_group_desc="G69407 - CSA - 000000000041988" ip_group_name="CSA - Canadian Securities Administrators" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.23.113" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.44" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.179" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.109" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.190" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.191" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.26" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.108" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.58" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.99" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.29.57" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.55"/>
+<GrpIPRange end_addr_id="64.254.23.25" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.23.24"/>
+<GrpIPRange end_addr_id="64.254.22.59" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.40"/>
+<GrpIPRange end_addr_id="64.254.22.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.67"/>
+<GrpIPRange end_addr_id="64.254.29.205" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.204"/>
+<GrpIPRange end_addr_id="64.254.29.228" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.222"/>
+<GrpIPRange end_addr_id="64.254.29.213" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.212"/>
+<GrpIPRange end_addr_id="64.254.29.209" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.207"/>
+<GrpIPRange end_addr_id="64.254.29.154" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.150"/>
+<GrpIPRange end_addr_id="64.254.22.64" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.62"/>
+<GrpIPRange end_addr_id="64.254.22.169" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.168"/>
+<GrpIPRange end_addr_id="128.129.40.191" flag="Include" netmask_addr_id="255.255.254.0" start_addr_id="128.129.40.190"/>
+</IPGroups>
+<IPGroups ip_group_desc="G49444 - CGI-CSP and SRHP - 000000000115595" ip_group_name="CSP" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.18.112" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.195" flag="Include"/>
+<GrpIPAddress addr_id="64.254.15.210" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.167" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.177" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.164" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.154" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.139" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.52" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.46" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.36" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.38" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.99" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.56" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.80" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.14" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.41" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.58" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.127" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.126" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.125" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.124" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.123" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.122" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.121" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.120" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.119" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.118" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.117" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.116" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.115" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.114" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.113" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.24.3" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.1"/>
+<GrpIPRange end_addr_id="64.254.21.191" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.21.160"/>
+<GrpIPRange end_addr_id="64.254.16.62" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.61"/>
+<GrpIPRange end_addr_id="64.254.16.53" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.51"/>
+<GrpIPRange end_addr_id="64.254.17.194" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.193"/>
+<GrpIPRange end_addr_id="64.254.19.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.78"/>
+<GrpIPRange end_addr_id="64.254.19.164" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.154"/>
+<GrpIPRange end_addr_id="64.86.141.93" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.92"/>
+<GrpIPRange end_addr_id="64.86.140.31" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.30"/>
+<GrpIPRange end_addr_id="64.86.140.55" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.54"/>
+<GrpIPRange end_addr_id="64.254.14.37" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.36"/>
+<GrpIPRange end_addr_id="64.254.16.228" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.227"/>
+</IPGroups>
+<IPGroups ip_group_desc="G65197 - CGI-GTOCA (Practice - 10610-B-Cloud Computing) - 13399046" ip_group_name="CTI-Cloud-Showcase" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.18.243" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.109" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.136" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.138" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.125" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.44" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.214" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.1" flag="Include"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.128" network_addr_id="64.254.21.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.128" network_addr_id="64.254.31.128"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="64.254.6.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="64.254.4.0"/>
+<GrpIPRange end_addr_id="64.254.19.77" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.70"/>
+<GrpIPRange end_addr_id="64.254.19.18" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.4"/>
+<GrpIPRange end_addr_id="64.254.19.62" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.49"/>
+<GrpIPRange end_addr_id="64.254.18.234" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.217"/>
+<GrpIPRange end_addr_id="64.254.19.30" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.27"/>
+<GrpIPRange end_addr_id="64.254.18.205" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.200"/>
+<GrpIPRange end_addr_id="64.254.18.198" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.189"/>
+<GrpIPRange end_addr_id="64.254.18.186" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.177"/>
+<GrpIPRange end_addr_id="64.254.18.129" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.128"/>
+<GrpIPRange end_addr_id="64.254.18.88" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.82"/>
+<GrpIPRange end_addr_id="64.254.18.12" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.11"/>
+<GrpIPRange end_addr_id="64.254.13.93" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.65"/>
+<GrpIPRange end_addr_id="64.254.19.88" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.82"/>
+<GrpIPRange end_addr_id="64.254.19.101" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.100"/>
+<GrpIPRange end_addr_id="64.254.19.132" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.129"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G84207 - Departement of Justice - 300000000003646" ip_group_name="Departement of Justice" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="66.110.6.146" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.145"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G09106 - Dessau - No Mandate" ip_group_name="Dessau" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.18.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.111" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.109" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.35" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.36" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.98" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.31" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.32" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.33" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.34" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G15805 - Duc2 (Hydro Quebec) - 11968001" ip_group_name="Duc2" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.45" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.149" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.211" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.233" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.14.142" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.129"/>
+<GrpIPRange end_addr_id="64.254.17.206" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.203"/>
+<GrpIPRange end_addr_id="64.254.4.39" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.4.38"/>
+<GrpIPRange end_addr_id="64.254.16.48" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.45"/>
+<GrpIPRange end_addr_id="64.254.19.141" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.139"/>
+<GrpIPRange end_addr_id="64.254.17.217" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.216"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - E-Health - No Mandate" ip_group_name="E-health (eHO)" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.15" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.25" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.24" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.23" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.22" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.21" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.20" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.51" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.26" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.27" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G43850 - Emera - 11355001" ip_group_name="Emera" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.17.151" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.150"/>
+</IPGroups>
+<IPGroups ip_group_desc="Energy Solutions 64.254.6.6 et .7 included cloud" ip_group_name="Energy Solutions" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.6.7" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.6.6"/>
+</IPGroups>
+<IPGroups ip_group_desc="Entourage" ip_group_name="Entourage" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.119" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.140.159" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.156"/>
+</IPGroups>
+<IPGroups ip_group_desc="EPQ" ip_group_name="EPQ" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.29" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.39" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="ERDF - Electricite Reseau Distribution France" ip_group_name="ERDF - Electricite Reseau Distribution France" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.18.153" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.152"/>
+</IPGroups>
+<IPGroups ip_group_desc="G37103 - CGI-ESP-ABU - 300000000010438" ip_group_name="ESP – CANABU" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="128.129.50.4" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.50.3"/>
+</IPGroups>
+<IPGroups ip_group_desc="G61860 - CGI-ESP-GMA (GDC) - 300000000011949" ip_group_name="ESP – CANGMCPS (GDC)" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.50.9" flag="Include"/>
+<GrpIPAddress addr_id="128.129.50.20" flag="Include"/>
+<GrpIPRange end_addr_id="128.129.50.19" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.50.11"/>
+</IPGroups>
+<IPGroups ip_group_desc="G14462 - CGI-ESP-GMA (IP-PraGMA) - 8334001" ip_group_name="ESP – CANGMCPS (Pragma)" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="128.129.50.24" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.50.21"/>
+</IPGroups>
+<IPGroups ip_group_desc="G70759 - CGI-ESP-RGQ - 300000000007016" ip_group_name="ESP – CANRGQ" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.42.34" flag="Include"/>
+<GrpIPRange end_addr_id="128.129.50.8" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.50.5"/>
+</IPGroups>
+<IPGroups ip_group_desc="ESP  - CANWEST" ip_group_name="ESP – CANWEST" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="128.129.50.30" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.50.25"/>
+<GrpIPRange end_addr_id="128.129.42.33" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.42.3"/>
+</IPGroups>
+<IPGroups ip_group_desc="G70956 - Farm Credit Canada - 000000000090469" ip_group_name="Farm Credit Canada" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.22.158" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.150" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.104" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.22.230" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.224"/>
+<GrpIPRange end_addr_id="64.254.23.22" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.23.21"/>
+<GrpIPRange end_addr_id="64.254.22.240" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.233"/>
+<GrpIPRange end_addr_id="128.129.36.18" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.36.11"/>
+</IPGroups>
+<IPGroups ip_group_desc="G23857 - Foresters - 000000000002134 (FOR1225 Shared Internet)" ip_group_name="Forester" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.29.97" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.94" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.93" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.91" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.90" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.84" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.79" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.72" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.68" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.49" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.26" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.105" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.3" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.22" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.2" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.91" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.254" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.17" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.98" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.190" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.188" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.129" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.64" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.29.32" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.30"/>
+<GrpIPRange end_addr_id="64.254.19.178" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.176"/>
+<GrpIPRange end_addr_id="64.254.18.65" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.64"/>
+<GrpIPRange end_addr_id="64.254.18.251" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.246"/>
+<GrpIPRange end_addr_id="64.254.18.212" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.207"/>
+<GrpIPRange end_addr_id="64.254.18.176" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.175"/>
+<GrpIPRange end_addr_id="64.254.18.173" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.172"/>
+<GrpIPRange end_addr_id="64.254.29.53" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.52"/>
+<GrpIPRange end_addr_id="64.254.29.44" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.42"/>
+<GrpIPRange end_addr_id="64.254.29.37" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.34"/>
+<GrpIPRange end_addr_id="64.254.18.162" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.160"/>
+<GrpIPRange end_addr_id="128.129.41.250" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.41.211"/>
+<GrpIPRange end_addr_id="128.129.40.117" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.110"/>
+<GrpIPRange end_addr_id="128.129.40.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.182"/>
+<GrpIPRange end_addr_id="64.254.19.220" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.201"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G23857 - Foresters - No Billing (Forester-PMO)" ip_group_name="Forester-PMO" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="199.84.60.226" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.29.31" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.30"/>
+<GrpIPRange end_addr_id="64.254.19.177" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.175"/>
+<GrpIPRange end_addr_id="64.254.19.173" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.170"/>
+<GrpIPRange end_addr_id="64.254.19.3" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.2"/>
+<GrpIPRange end_addr_id="64.254.19.26" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.22"/>
+<GrpIPRange end_addr_id="64.254.19.69" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.63"/>
+<GrpIPRange end_addr_id="64.254.18.255" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.244"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G85874 - CGI-FISG (T360) - No Billing (FSG, PPX, Trade 360)" ip_group_name="FSG (PPX)" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.20.46" flag="Include"/>
+<GrpIPAddress addr_id="64.254.20.8" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.117" flag="Include"/>
+<GrpIPAddress addr_id="64.254.20.102" flag="Include"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="64.254.20.0"/>
+<GrpIPRange end_addr_id="64.254.20.46" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.45"/>
+</IPGroups>
+<IPGroups ip_group_desc="G23662 - CGI - GMA (NJOYN) - 300000000035357" ip_group_name="G23662 CGI NJOYN" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.224" network_addr_id="128.129.41.0"/>
+</IPGroups>
+<IPGroups ip_group_desc="G36733 - CGI - GTOCA (Practice - 10652-B-Telco Data) -  13399022" ip_group_name="G36733 CGI GTOCA Network" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="66.110.6.124" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.125" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.123" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G83469 - CGI - GTOCA (Practice - 10617-B-Email Messaging) - 300000000030720 (Exchange Team - Brian R Morton)" ip_group_name="G83469 GTOCA Exchange Team" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.224" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.82" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.66" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.246" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.224" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - GAA (Groupement des assureurs automobiles) - No Mandate" ip_group_name="GAA" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.68" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.63" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.144" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G63921 - GAC - Foreign Affaires and International Trade (FAIT) - 300000000012233" ip_group_name="GAC" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.18.101" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.107" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.106" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.105" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.104" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.103" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.102" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.100" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.99" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.137" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.193" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.199" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.232" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.108" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.19.254" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="64.254.19.233"/>
+<GrpIPRange end_addr_id="64.254.19.196" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="64.254.19.195"/>
+<GrpIPRange end_addr_id="64.254.19.229" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="64.254.19.226"/>
+</IPGroups>
+<IPGroups ip_group_desc="GDN Mandate code 000000000023228 CGI-Ottawa" ip_group_name="GDN" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.206" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.200" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.207" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.201" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.202" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.203" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.204" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.205" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="GMA-CPS (Commercial &amp; Public Services) mandat 1320" ip_group_name="GMA CPS" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.4.197" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.4.196"/>
+</IPGroups>
+<IPGroups ip_group_desc="CGI - Solutions RH &amp; Paie (GRE)" ip_group_name="GRE" ip_group_speed="1000000000">
+<Selected_Devices>
+<Router Router_Name="whmc40794">
+<Interface interface_name="Bundle-Ether1.777"/>
+<Interface interface_name="IfIndex35"/>
+</Router>
+<Router Router_Name="shrdinet_tor_r02">
+<Interface interface_name="Null0"/>
+<Interface interface_name="IfIndex2"/>
+</Router>
+<Router Router_Name="shrdinet_tor_r01">
+<Interface interface_name="IfIndex2"/>
+<Interface interface_name="Null0"/>
+</Router>
+<Router Router_Name="whmc40975">
+<Interface interface_name="Bundle-Ether1.555"/>
+<Interface interface_name="Bundle-Ether1.777"/>
+</Router>
+</Selected_Devices>
+<GrpIPAddress addr_id="64.254.15.209" flag="Include"/>
+<GrpIPRange end_addr_id="66.110.6.143" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.142"/>
+<GrpIPRange end_addr_id="64.254.15.206" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.15.193"/>
+<GrpIPRange end_addr_id="64.254.14.46" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.38"/>
+<GrpIPRange end_addr_id="64.254.14.35" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.33"/>
+<GrpIPRange end_addr_id="64.254.15.214" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.15.211"/>
+</IPGroups>
+<IPGroups ip_group_desc="GTA WEST UHN (University Health Network)" ip_group_name="GTA WEST UHN" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.165" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.12" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.191" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.28.179" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.178"/>
+<GrpIPRange end_addr_id="64.254.24.27" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.26"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - G36733 - CGI - GTOCA (Practice - 10652-B-Telco Data) - No Billing (Reporting - GTO Legacy C2B VPN)" ip_group_name="GTO Canada  GIT.Admin C2B VPN" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="66.110.6.123" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.124" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.125" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G83226 - Halo Pharma - No Billing (incl. in cloud)" ip_group_name="Halo Pharma" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.22.65" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Herma Quebec" ip_group_name="Hema Quebec" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.89" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.88" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Hydro Quebec" ip_group_name="Hydro Quebec" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.16.46" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.47" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.48" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.45" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Aviva, ICS, IIS , IBS = South Park" ip_group_name="IBS" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.28.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.80"/>
+<GrpIPRange end_addr_id="64.254.22.138" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.137"/>
+</IPGroups>
+<IPGroups ip_group_desc="G34141 - CGI-CANGTA (ICS) - Aviva - 300000000015123" ip_group_name="ICS – AVIVA" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.190" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.187" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.189" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.188" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G36463 - CGI-CANGTA (ICS) - Portage - 300000000010113" ip_group_name="ICS – Portage" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.81" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.18" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.17" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.80" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.16" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - G83402 - IIS Quebec - No Billing (incl. in cloud)" ip_group_name="IIS" ip_group_speed="100000000">
+<GrpIPAddress addr_id="64.254.6.11" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G33380 - Industrielle Alliance - QC0000023000149 (Inalco natlife)" ip_group_name="Industrielle Alliance" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="66.110.6.62" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Industry Canada INDCNU - 000000000085182" ip_group_name="Industry Canada" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.22.217" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.210"/>
+<GrpIPRange end_addr_id="64.254.29.29" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.29"/>
+<GrpIPRange end_addr_id="64.254.28.77" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.75"/>
+<GrpIPRange end_addr_id="64.254.28.88" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.87"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-IPOST - No Mandate (Innovapost)" ip_group_name="Innovapost" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.109" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.155" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.202" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.57" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.213" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.5" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.36" flag="Include"/>
+<GrpIPAddress addr_id="198.34.224.141" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.141.181" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.180"/>
+<GrpIPRange end_addr_id="66.110.7.181" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.180"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - ISS - Internet Security Systems - No Mandate" ip_group_name="ISS" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="159.18.220.131" flag="Include"/>
+<GrpIPRange end_addr_id="207.245.13.26" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="207.245.13.25"/>
+<GrpIPRange end_addr_id="64.254.28.190" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.187"/>
+</IPGroups>
+<IPGroups ip_group_desc="G32250 - John Hancock - 000000000005866" ip_group_name="John Hancock" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="205.135.255.0"/>
+<GrpIPRange end_addr_id="205.135.255.66" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="205.135.255.65"/>
+<GrpIPRange end_addr_id="66.110.6.199" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.198"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Kaba Ilco - No Mandate" ip_group_name="Kaba Ilco" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.214" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.16" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.196" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.140.218" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.216"/>
+</IPGroups>
+<IPGroups ip_group_desc="G35397 - Livingston DC - 000000000028260" ip_group_name="Livingston DC" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.101" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.214" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.65" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.141" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.203" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.229" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.192" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.29.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.110"/>
+<GrpIPRange end_addr_id="64.254.29.10" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.9"/>
+<GrpIPRange end_addr_id="64.254.28.83" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.82"/>
+<GrpIPRange end_addr_id="64.254.29.139" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.136"/>
+<GrpIPRange end_addr_id="64.254.29.149" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.148"/>
+<GrpIPRange end_addr_id="64.254.29.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.155"/>
+<GrpIPRange end_addr_id="64.254.29.253" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.249"/>
+<GrpIPRange end_addr_id="64.254.29.245" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.241"/>
+<GrpIPRange end_addr_id="64.254.29.221" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.219"/>
+<GrpIPRange end_addr_id="64.254.29.189" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.185"/>
+<GrpIPRange end_addr_id="64.254.28.63" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.40"/>
+<GrpIPRange end_addr_id="64.254.29.41" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.40"/>
+<GrpIPRange end_addr_id="64.254.28.94" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.92"/>
+<GrpIPRange end_addr_id="64.254.29.211" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.210"/>
+<GrpIPRange end_addr_id="64.254.29.239" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.232"/>
+<GrpIPRange end_addr_id="64.254.29.121" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.119"/>
+</IPGroups>
+<IPGroups ip_group_desc="G57019 - Livingston Vastera - 000000000023263" ip_group_name="Livingston Vastera" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.85" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.39" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.99" flag="Include"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.240" network_addr_id="216.128.250.144"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.224" network_addr_id="216.128.252.32"/>
+</IPGroups>
+<IPGroups ip_group_desc="Logica" ip_group_name="Logica" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.18.216" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.215" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="MasterCard" ip_group_name="MasterCard" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.15.230" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.15.225"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - Gxxxxx - Multi - No Billing (Reporting - TATA Communications 64.86.140.0 66.110.6.0/23)" ip_group_name="MDC – Montreal" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="64.86.140.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="66.110.6.0"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - Gxxxxx - Multi - No Billing (Reporting - 204.83.165.0/24 -  SaskTel &amp; 24.89.124.0/24 - ACC)" ip_group_name="MDC – Regina" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="204.83.165.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="24.89.124.0"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - Gxxxxx - Multi - No Billing (Reporting - MTS Allstream 159.18.53.0 159.18.220.0/23)" ip_group_name="MDC – Toronto" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="207.245.13.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="159.18.220.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="159.18.53.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="216.191.142.0"/>
+</IPGroups>
+<IPGroups ip_group_desc="G09278 - Metro-Richelieu - 4732107" ip_group_name="Metro-Richelieu" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.248" network_addr_id="64.254.15.232"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="199.84.233.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="199.84.234.0"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.240" network_addr_id="64.254.15.64"/>
+<GrpIPRange end_addr_id="64.254.19.135" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.133"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (MH) - G36381 - CGI-Corpo - No Billing (Reporting - CGI-Corpo)" ip_group_name="MH CGI Corpo" ip_group_speed="4000000000">
+<GrpIPAddress addr_id="64.254.23.250" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.59" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.18" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.2" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.186" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.87" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.71" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.69" flag="Include"/>
+<GrpIPAddress addr_id="64.254.21.125" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.23" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.234" flag="Include"/>
+<GrpIPAddress addr_id="199.84.60.43" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.73" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.43" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.37" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.10" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.218" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.37" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.170" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.161" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.112" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.110" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.95" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.48" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.40" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.178" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.161" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.63" flag="Include"/>
+<GrpIPAddress addr_id="64.254.6.13" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.132" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.130" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.159" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.124" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.108" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.200" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.140" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.234" flag="Include"/>
+<GrpIPAddress addr_id="66.110.7.9" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.190" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.110" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.39" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.243" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.63" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.245" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.243" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.223" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.220" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.207" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.134" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.121" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.119" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.107" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.92" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.74" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.201" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.199" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.197" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.59" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.36" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.133" flag="Include"/>
+<GrpIPAddress addr_id="128.129.48.51" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.179" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.218" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.117" flag="Include"/>
+<GrpIPAddress addr_id="64.254.31.225" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.103" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.50" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.32" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.26" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.24" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.18" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.220" flag="Include"/>
+<GrpIPAddress addr_id="64.110.6.4" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.47" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.240" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.101" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.97" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.94" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.70" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.185" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.63" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.28" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.20" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.59" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.250" flag="Include"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.240" network_addr_id="128.129.49.0"/>
+<GrpIPRange end_addr_id="64.86.141.142" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.139"/>
+<GrpIPRange end_addr_id="64.86.141.137" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.131"/>
+<GrpIPRange end_addr_id="64.86.141.108" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.105"/>
+<GrpIPRange end_addr_id="64.86.141.9" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.4"/>
+<GrpIPRange end_addr_id="64.86.141.148" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.145"/>
+<GrpIPRange end_addr_id="64.86.141.252" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.247"/>
+<GrpIPRange end_addr_id="128.129.40.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.126"/>
+<GrpIPRange end_addr_id="64.254.23.12" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.23.11"/>
+<GrpIPRange end_addr_id="66.110.7.219" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.192"/>
+<GrpIPRange end_addr_id="66.110.7.112" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.110"/>
+<GrpIPRange end_addr_id="66.110.7.22" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.20"/>
+<GrpIPRange end_addr_id="66.110.7.32" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.30"/>
+<GrpIPRange end_addr_id="66.110.7.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.5"/>
+<GrpIPRange end_addr_id="66.110.6.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.230"/>
+<GrpIPRange end_addr_id="64.86.140.119" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.119"/>
+<GrpIPRange end_addr_id="64.86.140.159" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.156"/>
+<GrpIPRange end_addr_id="128.129.48.83" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.83"/>
+<GrpIPRange end_addr_id="64.86.141.195" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.192"/>
+<GrpIPRange end_addr_id="64.86.141.181" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.179"/>
+<GrpIPRange end_addr_id="64.86.140.121" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.120"/>
+<GrpIPRange end_addr_id="64.254.16.87" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.80"/>
+<GrpIPRange end_addr_id="64.254.17.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.71"/>
+<GrpIPRange end_addr_id="64.254.17.78" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.77"/>
+<GrpIPRange end_addr_id="66.110.7.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.7.71"/>
+<GrpIPRange end_addr_id="128.129.48.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.114"/>
+<GrpIPRange end_addr_id="128.129.48.33" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.30"/>
+<GrpIPRange end_addr_id="64.254.22.173" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.171"/>
+<GrpIPRange end_addr_id="128.129.48.46" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.45"/>
+<GrpIPRange end_addr_id="64.254.22.250" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.246"/>
+<GrpIPRange end_addr_id="128.129.40.101" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.99"/>
+<GrpIPRange end_addr_id="64.254.17.176" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.174"/>
+<GrpIPRange end_addr_id="64.254.18.216" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.215"/>
+<GrpIPRange end_addr_id="64.254.18.19" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.18"/>
+<GrpIPRange end_addr_id="64.254.18.241" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.236"/>
+<GrpIPRange end_addr_id="64.254.18.171" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.170"/>
+<GrpIPRange end_addr_id="64.254.18.97" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.92"/>
+<GrpIPRange end_addr_id="64.254.18.74" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.70"/>
+<GrpIPRange end_addr_id="64.254.19.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.182"/>
+<GrpIPRange end_addr_id="64.254.18.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.5"/>
+<GrpIPRange end_addr_id="64.254.18.90" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.89"/>
+<GrpIPRange end_addr_id="64.254.22.73" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.72"/>
+<GrpIPRange end_addr_id="64.254.28.15" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.13"/>
+<GrpIPRange end_addr_id="66.110.6.96" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.95"/>
+<GrpIPRange end_addr_id="64.254.22.167" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.162"/>
+<GrpIPRange end_addr_id="128.129.48.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.100"/>
+<GrpIPRange end_addr_id="64.254.31.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.31.182"/>
+<GrpIPRange end_addr_id="64.254.24.18" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.17"/>
+<GrpIPRange end_addr_id="64.254.22.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.76"/>
+<GrpIPRange end_addr_id="64.254.19.91" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.90"/>
+<GrpIPRange end_addr_id="64.254.19.153" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.150"/>
+<GrpIPRange end_addr_id="64.254.19.128" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.126"/>
+<GrpIPRange end_addr_id="64.254.19.99" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.93"/>
+<GrpIPRange end_addr_id="64.254.19.169" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.168"/>
+<GrpIPRange end_addr_id="64.254.17.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.230"/>
+<GrpIPRange end_addr_id="64.254.22.184" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.176"/>
+<GrpIPRange end_addr_id="128.129.48.9" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.7"/>
+<GrpIPRange end_addr_id="64.254.18.139" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.130"/>
+<GrpIPRange end_addr_id="128.129.48.26" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.20"/>
+<GrpIPRange end_addr_id="128.129.48.6" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.1"/>
+<GrpIPRange end_addr_id="199.84.60.124" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="199.84.60.123"/>
+<GrpIPRange end_addr_id="159.18.221.210" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.221.209"/>
+<GrpIPRange end_addr_id="159.18.221.216" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.221.215"/>
+<GrpIPRange end_addr_id="64.86.141.21" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.20"/>
+<GrpIPRange end_addr_id="64.86.141.245" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.241"/>
+<GrpIPRange end_addr_id="64.254.17.227" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.225"/>
+<GrpIPRange end_addr_id="64.254.17.201" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.200"/>
+<GrpIPRange end_addr_id="64.86.141.89" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.88"/>
+<GrpIPRange end_addr_id="64.254.17.158" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.152"/>
+<GrpIPRange end_addr_id="64.86.140.136" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.134"/>
+<GrpIPRange end_addr_id="64.86.140.143" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.140"/>
+<GrpIPRange end_addr_id="64.254.22.223" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.220"/>
+<GrpIPRange end_addr_id="128.129.48.78" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.48.77"/>
+<GrpIPRange end_addr_id="64.86.141.176" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.175"/>
+<GrpIPRange end_addr_id="64.86.141.190" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.187"/>
+<GrpIPRange end_addr_id="64.86.141.238" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.237"/>
+<GrpIPRange end_addr_id="64.86.141.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.228"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G29122 - CGI-NCR (MSS) - No Billing (MSS-GENERAL)" ip_group_name="MSS" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.123" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.90" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.100" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.19" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.24.215" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.208"/>
+<GrpIPRange end_addr_id="64.254.24.105" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.104"/>
+<GrpIPRange end_addr_id="64.254.24.115" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.107"/>
+<GrpIPRange end_addr_id="64.254.24.206" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.200"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - G29122  - CGI-NCR (MSS) - No Billing (Reporting - Security Lab Shawn Pinet)" ip_group_name="MSS Lab" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.90" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G29122 - CGI-NCR (MSS) - MSS-GENERAL" ip_group_name="MSS-MTL-TOR" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.200" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.123" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.115" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.114" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.113" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.112" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.111" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.109" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.108" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.107" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.105" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.104" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.19" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.100" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.19" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.90" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.215" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.214" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.213" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.212" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.211" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.210" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.209" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.208" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.206" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.205" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.204" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.203" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.202" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.201" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G21326 - Nexelis - 300000000053734" ip_group_name="Nexelis" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.23.210" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G92214 - NorthernTrust - 300000000003929" ip_group_name="NorthernTrust" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.48.18" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.10" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.49" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.79" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.195" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.16.38" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.37"/>
+<GrpIPRange end_addr_id="64.254.17.30" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.29"/>
+<GrpIPRange end_addr_id="64.254.17.27" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.25"/>
+<GrpIPRange end_addr_id="64.254.16.198" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.197"/>
+<GrpIPRange end_addr_id="128.129.40.196" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.194"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Novelis - No Mandate" ip_group_name="Novalis" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.225" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - OCE (Imagistics) - No Mandate" ip_group_name="OCE (Imagistics)" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.17.132" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.93" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.178" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.234" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.232" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.186" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.164" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.153" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.66" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.14" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.215" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.212" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.106" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.172" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.54" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.69" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.197" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.198" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.17.51" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.50"/>
+<GrpIPRange end_addr_id="64.86.141.102" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.100"/>
+<GrpIPRange end_addr_id="64.86.140.114" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.113"/>
+<GrpIPRange end_addr_id="64.254.17.166" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.162"/>
+<GrpIPRange end_addr_id="66.110.6.156" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.153"/>
+<GrpIPRange end_addr_id="64.254.17.189" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.188"/>
+<GrpIPRange end_addr_id="64.254.17.115" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.112"/>
+<GrpIPRange end_addr_id="64.254.17.58" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.56"/>
+<GrpIPRange end_addr_id="64.86.141.63" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.61"/>
+<GrpIPRange end_addr_id="64.86.141.32" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.31"/>
+<GrpIPRange end_addr_id="66.110.6.189" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.188"/>
+</IPGroups>
+<IPGroups ip_group_desc="OIQ" ip_group_name="OIQ" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.97" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G70854 - OneWeb - 000000000115549" ip_group_name="OneWeb" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.23.190" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.29" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.10" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G27752 - CGI-GTOCA (Practice - 10625-B-ITSM) - 13399020 (OSR Chorus)" ip_group_name="OSR" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.6.122" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.50" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.171" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.121" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.221" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.187" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.146" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.86" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.73" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.17.97" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.96"/>
+<GrpIPRange end_addr_id="64.254.18.14" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.13"/>
+<GrpIPRange end_addr_id="64.254.18.79" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.75"/>
+<GrpIPRange end_addr_id="64.254.17.161" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.159"/>
+<GrpIPRange end_addr_id="64.254.17.239" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.235"/>
+<GrpIPRange end_addr_id="64.254.17.185" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.181"/>
+<GrpIPRange end_addr_id="64.254.17.47" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.43"/>
+<GrpIPRange end_addr_id="64.254.17.76" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.75"/>
+<GrpIPRange end_addr_id="64.254.17.84" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.82"/>
+<GrpIPRange end_addr_id="64.86.141.2" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.1"/>
+</IPGroups>
+<IPGroups ip_group_desc="G55027 - Owens Corning (InterWrap) - 000000000057404" ip_group_name="Owens Corning" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="127.0.0.1" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Philips" ip_group_name="Philips" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.17.172" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.171"/>
+</IPGroups>
+<IPGroups ip_group_desc="Picheney" ip_group_name="Picheney" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.53" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.171" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.172" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.173" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.174" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.175" flag="Include"/>
+<GrpIPAddress addr_id="66.110.7.150" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.51" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.180" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.213" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G82876 - Plexxus - 000000000010002" ip_group_name="Plexxus" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.17.229" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.119" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.19.148" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.142"/>
+<GrpIPRange end_addr_id="64.254.18.68" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.66"/>
+<GrpIPRange end_addr_id="64.254.18.62" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.61"/>
+<GrpIPRange end_addr_id="64.254.28.122" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.120"/>
+<GrpIPRange end_addr_id="64.254.19.181" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.180"/>
+</IPGroups>
+<IPGroups ip_group_desc="Power Corp Ottawa BU - A11674003" ip_group_name="Power Corp" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.132" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.24.137" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.134"/>
+</IPGroups>
+<IPGroups ip_group_desc="Pratique SAP" ip_group_name="Pratique SAP" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.35" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - G65379 - PHAC (Public Health Agency Of Canada) - No Mandate" ip_group_name="Public Health Agency Of Canada" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.18.174" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.18.159" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.156"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-PCL - No Mandate (Purolator)" ip_group_name="Purolator" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="159.18.53.21" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.208" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.225" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.89" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.229" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.253" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.79" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.50" flag="Include"/>
+<GrpIPAddress addr_id="159.18.53.30" flag="Include"/>
+<GrpIPAddress addr_id="159.18.53.15" flag="Include"/>
+<GrpIPAddress addr_id="159.18.53.25" flag="Include"/>
+<GrpIPAddress addr_id="159.18.53.40" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.118" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.120" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.136" flag="Include"/>
+<GrpIPAddress addr_id="192.82.117.41" flag="Include"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.0" network_addr_id="192.82.117.0"/>
+<GrpIPRange end_addr_id="192.82.117.53" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="192.82.117.50"/>
+<GrpIPRange end_addr_id="198.34.224.179" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.170"/>
+<GrpIPRange end_addr_id="64.254.17.199" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.197"/>
+<GrpIPRange end_addr_id="64.254.17.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.122"/>
+<GrpIPRange end_addr_id="192.82.117.241" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="192.82.117.240"/>
+<GrpIPRange end_addr_id="159.18.53.37" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.53.36"/>
+<GrpIPRange end_addr_id="159.18.53.10" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.53.1"/>
+<GrpIPRange end_addr_id="198.34.224.183" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="198.34.224.181"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - CPG-CPC - No Mandate (IR 8736 - Project Code:13255919)" ip_group_name="Real Estate" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="198.34.224.200" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="All Outbound RSA User Traffic" ip_group_name="Reporting Portal Proponix Capacity" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.16.103" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G97658 - Rexel Corp - 000000000003821 (Rexel Canada)" ip_group_name="Rexel" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.40.58" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.45" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.132" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.132" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.11" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.255" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.176" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.86" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.131" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.137" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.22.243" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.242"/>
+<GrpIPRange end_addr_id="128.129.40.92" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.87"/>
+<GrpIPRange end_addr_id="64.254.28.241" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.232"/>
+<GrpIPRange end_addr_id="64.254.29.13" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.11"/>
+<GrpIPRange end_addr_id="64.254.29.4" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.3"/>
+<GrpIPRange end_addr_id="64.254.28.161" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.160"/>
+</IPGroups>
+<IPGroups ip_group_desc="G97658 - Rexel Corp - 000000000003821 (Rexel E-Commerce)" ip_group_name="Rexel E-Commerce" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.29.1" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.7" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.201" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.240" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.28.226" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.225"/>
+<GrpIPRange end_addr_id="64.254.28.35" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.34"/>
+<GrpIPRange end_addr_id="64.254.28.164" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.162"/>
+<GrpIPRange end_addr_id="64.254.28.254" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.253"/>
+<GrpIPRange end_addr_id="128.129.40.89" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.88"/>
+</IPGroups>
+<IPGroups ip_group_desc="G49610 - Rexel US -  300000000002942" ip_group_name="Rexel US" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.29.0" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.32" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.184" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.206" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.84" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.36" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.28.74" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.71"/>
+<GrpIPRange end_addr_id="128.129.40.145" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.144"/>
+<GrpIPRange end_addr_id="64.254.28.221" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.220"/>
+<GrpIPRange end_addr_id="64.254.28.169" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.165"/>
+<GrpIPRange end_addr_id="128.129.40.136" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.135"/>
+<GrpIPRange end_addr_id="128.129.40.55" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.54"/>
+<GrpIPRange end_addr_id="64.254.29.8" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.7"/>
+<GrpIPRange end_addr_id="64.254.28.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.192"/>
+<GrpIPRange end_addr_id="128.129.40.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.102"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (RM) - G80407 - CGI-CANGTA (GWCM) - No Billing (Reporting - MTL IT360 Azure)" ip_group_name="RM_MTL_IT360_Azure" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="104.208.167.91" flag="Include"/>
+<GrpIPAddress addr_id="40.76.215.83" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (RM) - G36443 - Interac - No Billing (Reporting -  MTL Acxsys Amazon)" ip_group_name="RM_MTL_TOR_Acxsys_Amazon" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="52.203.84.180" flag="Include"/>
+<GrpIPAddress addr_id="52.60.166.37" flag="Include"/>
+<GrpIPAddress addr_id="35.182.87.62" flag="Include"/>
+<GrpIPAddress addr_id="52.207.205.131" flag="Include"/>
+<GrpIPAddress addr_id="35.182.192.220" flag="Include"/>
+<GrpIPAddress addr_id="52.8.38.225" flag="Include"/>
+<GrpIPAddress addr_id="52.52.130.213" flag="Include"/>
+<GrpIPAddress addr_id="52.52.37.245" flag="Include"/>
+<GrpIPAddress addr_id="52.60.123.225" flag="Include"/>
+<GrpIPAddress addr_id="52.202.118.132" flag="Include"/>
+<GrpIPAddress addr_id="52.201.161.235" flag="Include"/>
+<GrpIPAddress addr_id="52.52.56.158" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (RM) - G58846 - TBG (The Beer Group - Brewers Retail Inc.) - No Billing (Reporting -  TOR TBG Azure 1)" ip_group_name="RM_TOR_TBG_Azure1" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="40.76.215.83" flag="Include"/>
+<GrpIPAddress addr_id="104.208.167.91" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (RM) - G47833 - Wolseley - No Billing (Reporting - TOR Wolseley Azure)" ip_group_name="RM_TOR_Woslesley_Azure" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="52.232.130.234" flag="Include"/>
+<GrpIPAddress addr_id="52.229.113.142" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G31182 - Royal &amp; Sun Alliance - 000000000017954" ip_group_name="Royal Sun Alliance" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.17.51" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.88" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.122" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.85" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.80" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.109" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.166" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.173" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.179" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.15" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.80" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.105" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.113" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.122" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.208" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.64" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.184" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.240" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.13" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.94" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.93" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.245" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.238" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.12" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.228" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.9" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.194" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.16.120" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.114"/>
+<GrpIPRange end_addr_id="64.254.16.125" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.124"/>
+<GrpIPRange end_addr_id="64.254.16.103" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.100"/>
+<GrpIPRange end_addr_id="64.254.16.236" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.231"/>
+<GrpIPRange end_addr_id="64.254.16.111" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.110"/>
+<GrpIPRange end_addr_id="64.254.16.108" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.107"/>
+<GrpIPRange end_addr_id="64.254.16.91" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.90"/>
+<GrpIPRange end_addr_id="64.254.16.32" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.31"/>
+<GrpIPRange end_addr_id="128.129.40.57" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.56"/>
+<GrpIPRange end_addr_id="128.129.40.51" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.32"/>
+<GrpIPRange end_addr_id="64.254.19.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.113"/>
+<GrpIPRange end_addr_id="64.254.19.111" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.107"/>
+<GrpIPRange end_addr_id="64.254.18.186" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.180"/>
+<GrpIPRange end_addr_id="64.254.17.117" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.116"/>
+<GrpIPRange end_addr_id="64.254.16.189" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.99"/>
+<GrpIPRange end_addr_id="64.254.16.78" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.75"/>
+</IPGroups>
+<IPGroups ip_group_desc="RTG WEB Production (ICS//Portage)" ip_group_name="RTG WEB Production" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.28.18" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.16"/>
+</IPGroups>
+<IPGroups ip_group_desc="G92368 - Saputo - 11960001" ip_group_name="Saputo" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.19.174" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.19" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.242" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.235" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.19.106" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.105"/>
+<GrpIPRange end_addr_id="64.254.14.198" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.193"/>
+<GrpIPRange end_addr_id="64.254.19.121" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.19.117"/>
+<GrpIPRange end_addr_id="64.254.18.155" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.154"/>
+<GrpIPRange end_addr_id="64.254.18.151" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.142"/>
+</IPGroups>
+<IPGroups ip_group_desc="SAQ (Societe des Alcools du Quebec)" ip_group_name="SAQ" ip_group_speed="1000000000">
+<GrpIPRange end_addr_id="64.254.14.94" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.84"/>
+<GrpIPRange end_addr_id="64.254.14.77" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.68"/>
+</IPGroups>
+<IPGroups ip_group_desc="G49235 - Sask Energy - 000000000113738" ip_group_name="Sask Energy" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.40.148" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G70176 - Sask Finance - 000000000073553" ip_group_name="Sask Finance" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.69" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.187" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.248" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.180" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.175" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.138" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.136" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.100" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.91" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.38" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.78" flag="Include"/>
+<GrpIPRange end_addr_id="128.129.36.29" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.36.22"/>
+<GrpIPRange end_addr_id="64.254.22.241" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.240"/>
+<GrpIPRange end_addr_id="64.254.28.174" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.172"/>
+<GrpIPRange end_addr_id="64.254.29.19" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.18"/>
+</IPGroups>
+<IPGroups ip_group_desc="G15532 - BNC - 11633100" ip_group_name="SBNC" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.79" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.129" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.186" flag="Include"/>
+<GrpIPAddress addr_id="64.254.19.102" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.77" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.13.126" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.13.113"/>
+<GrpIPRange end_addr_id="64.254.23.57" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.23.56"/>
+<GrpIPRange end_addr_id="128.129.40.140" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.139"/>
+</IPGroups>
+<IPGroups ip_group_desc="SCM Risk Management" ip_group_name="SCM" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.68" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G70806 - Medias Transcontinental (SEAO) - QC1000000600001" ip_group_name="SEAO" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.148" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.56" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.58" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.233" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.232" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.244" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.199" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.206" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.142" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.145" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.23.17" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.23.13"/>
+<GrpIPRange end_addr_id="64.254.16.72" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.70"/>
+<GrpIPRange end_addr_id="64.254.17.140" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.137"/>
+<GrpIPRange end_addr_id="64.254.18.188" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.187"/>
+<GrpIPRange end_addr_id="64.254.17.242" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.240"/>
+</IPGroups>
+<IPGroups ip_group_desc="Secured Shared Services Ottawa BU" ip_group_name="Secured Shared Services" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.166" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.24.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.124"/>
+<GrpIPRange end_addr_id="64.254.24.131" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.130"/>
+<GrpIPRange end_addr_id="64.254.24.164" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.160"/>
+<GrpIPRange end_addr_id="64.254.24.158" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.150"/>
+<GrpIPRange end_addr_id="64.254.24.117" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.24.116"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Serco DES Ottawa datacenter - No Mandate" ip_group_name="Serco DES" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.54" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.56" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.55" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G08155 - Sogica - 300000000008281" ip_group_name="Sogica" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.18.194" flag="Include"/>
+<GrpIPAddress addr_id="64.254.18.192" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.35" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Duplicate - G49444 - CGI-CSP and SRHP - No Billing (SRHP)" ip_group_name="SRHP" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.3" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.2" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.1" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.227" flag="Include"/>
+<GrpIPAddress addr_id="64.254.14.36" flag="Include"/>
+<GrpIPAddress addr_id="64.254.14.37" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.54" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.55" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.30" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.31" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Tembec - No Mandate" ip_group_name="Tembec" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.170" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.15.253" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.15.244"/>
+</IPGroups>
+<IPGroups ip_group_desc="G58846 - TBG (The Beer Group - Brewers Retail Inc.) - 000000000012277" ip_group_name="The Beer Group" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.137" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.159" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.135" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.140" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.149" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.28.90" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.89"/>
+<GrpIPRange end_addr_id="64.254.29.231" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.230"/>
+<GrpIPRange end_addr_id="64.254.28.247" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.247"/>
+<GrpIPRange end_addr_id="128.129.40.133" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.131"/>
+<GrpIPRange end_addr_id="64.254.28.159" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.150"/>
+<GrpIPRange end_addr_id="64.254.28.252" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.250"/>
+<GrpIPRange end_addr_id="64.254.28.135" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.126"/>
+<GrpIPRange end_addr_id="64.254.28.147" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.139"/>
+</IPGroups>
+<IPGroups ip_group_desc="G85874 - CGI-FISG (T360) - 300000000004998" ip_group_name="Trade 360" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.16.39" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.90" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.202" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.85" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.101" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.106" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.133" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.180" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.224" flag="Include"/>
+<GrpIPAddress addr_id="64.254.20.200" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.108" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.20.163" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.155"/>
+<GrpIPRange end_addr_id="64.254.17.219" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.218"/>
+<GrpIPRange end_addr_id="64.254.18.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.80"/>
+<GrpIPRange end_addr_id="64.254.18.169" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.163"/>
+<GrpIPRange end_addr_id="64.254.22.108" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.107"/>
+<GrpIPRange end_addr_id="64.254.28.118" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.116"/>
+<GrpIPRange end_addr_id="64.254.20.133" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.130"/>
+<GrpIPRange end_addr_id="64.254.20.189" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.186"/>
+<GrpIPRange end_addr_id="64.254.20.185" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.183"/>
+<GrpIPRange end_addr_id="64.254.20.46" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.43"/>
+<GrpIPRange end_addr_id="64.254.20.171" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.169"/>
+<GrpIPRange end_addr_id="64.254.20.148" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.134"/>
+<GrpIPRange end_addr_id="64.254.20.126" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.1"/>
+<GrpIPRange end_addr_id="64.254.16.36" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.20"/>
+<GrpIPRange end_addr_id="64.254.22.96" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.91"/>
+<GrpIPRange end_addr_id="64.254.17.131" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.129"/>
+<GrpIPRange end_addr_id="64.254.17.145" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.143"/>
+<GrpIPRange end_addr_id="64.254.17.170" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.169"/>
+<GrpIPRange end_addr_id="64.254.17.214" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.212"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - G36381 - CGI-Corpo - No Billing (Reporting - UA Bell PaaS DDC VIP)" ip_group_name="UABellPaaSDDC" ip_group_speed="1000000">
+<GrpIPAddress addr_id="64.254.22.133" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (xx) - G36381 - CGI-Corpo - No Billing (Reporting - UA Bell PaaS MDC VIP)" ip_group_name="UABellPaaSMDC" ip_group_speed="1000000">
+<GrpIPAddress addr_id="128.129.40.70" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Aliments Ultima - No Mandate" ip_group_name="Ultima" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.140.33" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.67" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.45" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.249" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="University Health Network" ip_group_name="University Health Network" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.24.27" flag="Include"/>
+<GrpIPAddress addr_id="64.254.24.26" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G29231 - Via Rail - 4330017" ip_group_name="Via Rail" ip_group_speed="1000000000">
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.224" network_addr_id="64.254.31.64"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.224" network_addr_id="64.254.31.96"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.224" network_addr_id="64.254.21.224"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.255.224" network_addr_id="64.254.21.128"/>
+</IPGroups>
+<IPGroups ip_group_desc="WBU Alberta Human Services" ip_group_name="WBU Alberta Human Services" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.40.53" flag="Include"/>
+<GrpIPRange end_addr_id="128.129.40.125" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.124"/>
+</IPGroups>
+<IPGroups ip_group_desc="Decomm - Gxxxxx - Wheaton - No Mandate" ip_group_name="Wheaton" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.17.102" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.103" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.216" flag="Include"/>
+<GrpIPAddress addr_id="66.110.6.217" flag="Include"/>
+</IPGroups>
+<IPGroups ip_group_desc="G47833 - Wolseley - 300000000019452" ip_group_name="Wolseley" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="128.129.40.128" flag="Include"/>
+<GrpIPRange end_addr_id="128.129.40.69" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.66"/>
+<GrpIPRange end_addr_id="128.129.40.62" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.61"/>
+<GrpIPRange end_addr_id="128.129.40.75" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.71"/>
+</IPGroups>
+<IPGroups ip_group_desc="WSHS" ip_group_name="WSHS" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.86" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.183" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.235" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.240" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.41" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.246" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.34" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.70" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.93" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.104" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.110" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.150" flag="Include"/>
+<GrpIPAddress addr_id="64.86.140.186" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.28" flag="Include"/>
+<GrpIPAddress addr_id="64.86.141.42" flag="Include"/>
+<GrpIPRange end_addr_id="64.86.141.104" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.103"/>
+<GrpIPRange end_addr_id="64.86.141.152" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.151"/>
+<GrpIPRange end_addr_id="64.86.140.15" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.6"/>
+<GrpIPRange end_addr_id="64.86.141.11" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.10"/>
+</IPGroups>
+<IPGroups ip_group_desc="Wshs-Internet Router" ip_group_name="Wshs-Internet Router" ip_group_speed="1000000000">
+<Selected_Devices>
+<Router Router_Name="whmc40794">
+<Interface interface_name="Bundle-Ether1.777"/>
+</Router>
+<Router Router_Name="whmc40975">
+<Interface interface_name="Bundle-Ether1.777"/>
+</Router>
+</Selected_Devices>
+<GrpIPRange end_addr_id="64.254.14.67" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.65"/>
+<GrpIPRange end_addr_id="64.254.0.3" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.0.1"/>
+<GrpIPRange end_addr_id="64.86.140.4" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.140.1"/>
+<GrpIPRange end_addr_id="205.135.255.3" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="205.135.255.2"/>
+<GrpIPRange end_addr_id="66.110.6.4" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="66.110.6.1"/>
+<GrpIPRange end_addr_id="64.254.20.4" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.20.1"/>
+<GrpIPRange end_addr_id="64.254.18.4" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.18.1"/>
+<GrpIPRange end_addr_id="64.254.16.4" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.16.1"/>
+<GrpIPRange end_addr_id="64.254.15.244" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.15.241"/>
+</IPGroups>
+<IPGroups ip_group_desc="G95857 - WSIB - 000000000021580" ip_group_name="WSIB" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.28.249" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.255" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.237" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.97" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.95" flag="Include"/>
+<GrpIPAddress addr_id="64.254.28.177" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.202" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.206" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.77" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.78" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.23" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.192" flag="Include"/>
+<GrpIPAddress addr_id="64.254.29.60" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.214" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.52" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.193" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.82" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.22.148" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.139"/>
+<GrpIPRange end_addr_id="128.129.40.106" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.104"/>
+<GrpIPRange end_addr_id="64.254.29.248" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.247"/>
+<GrpIPRange end_addr_id="128.129.40.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.80"/>
+<GrpIPRange end_addr_id="64.254.22.205" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.203"/>
+<GrpIPRange end_addr_id="64.254.29.200" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.193"/>
+<GrpIPRange end_addr_id="128.129.40.97" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.94"/>
+<GrpIPRange end_addr_id="64.254.22.132" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.128"/>
+</IPGroups>
+<IPGroups ip_group_desc="G31185 - Yellow Pages - 8848126" ip_group_name="YPG" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.86.141.24" flag="Include"/>
+<GrpIPAddress addr_id="64.254.16.210" flag="Include"/>
+<GrpIPAddress addr_id="64.254.17.228" flag="Include"/>
+<GrpIPAddress addr_id="64.254.14.83" flag="Include"/>
+<GrpIPRange end_addr_id="64.254.14.81" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.14.79"/>
+<GrpIPRange end_addr_id="64.86.141.159" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.86.141.157"/>
+<GrpIPRange end_addr_id="64.254.17.105" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.17.104"/>
+</IPGroups>
+<IPGroups ip_group_desc="Telecom Internal (ZHI) - Gxxxxx - Multi - No Billing (Reporting - ZTEST)" ip_group_name="ZTEST" ip_group_speed="1000000000">
+<GrpIPAddress addr_id="64.254.22.232" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.100" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.231" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.105" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.119" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.116" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.111" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.250" flag="Include"/>
+<GrpIPAddress addr_id="159.18.220.136" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.39" flag="Include"/>
+<GrpIPAddress addr_id="64.254.22.175" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.35" flag="Include"/>
+<GrpIPAddress addr_id="128.129.40.122" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.43" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.110" flag="Include"/>
+<GrpIPAddress addr_id="64.254.23.110" flag="Include"/>
+<GrpIPNetwork flag="Include" netmask_addr_id="255.255.254.0" network_addr_id="2.2.2.0"/>
+<GrpIPRange end_addr_id="3.1.2.1" flag="Include" netmask_addr_id="255.255.255.255" start_addr_id="3.1.1.0"/>
+<GrpIPRange end_addr_id="159.18.220.200" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.193"/>
+<GrpIPRange end_addr_id="159.18.220.144" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.143"/>
+<GrpIPRange end_addr_id="159.18.220.140" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.139"/>
+<GrpIPRange end_addr_id="64.254.22.209" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.207"/>
+<GrpIPRange end_addr_id="128.129.40.31" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="128.129.40.16"/>
+<GrpIPRange end_addr_id="64.254.22.200" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.185"/>
+<GrpIPRange end_addr_id="64.254.22.90" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.83"/>
+<GrpIPRange end_addr_id="64.254.22.102" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.98"/>
+<GrpIPRange end_addr_id="64.254.22.75" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.74"/>
+<GrpIPRange end_addr_id="64.254.22.157" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.151"/>
+<GrpIPRange end_addr_id="64.254.22.149" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.145"/>
+<GrpIPRange end_addr_id="64.254.28.186" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.28.181"/>
+<GrpIPRange end_addr_id="64.254.29.25" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.20"/>
+<GrpIPRange end_addr_id="64.254.29.17" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.16"/>
+<GrpIPRange end_addr_id="64.254.29.147" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.29.142"/>
+<GrpIPRange end_addr_id="159.18.220.92" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.91"/>
+<GrpIPRange end_addr_id="159.18.220.126" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="159.18.220.120"/>
+<GrpIPRange end_addr_id="64.254.22.127" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.119"/>
+<GrpIPRange end_addr_id="64.254.22.116" flag="Include" netmask_addr_id="255.255.255.0" start_addr_id="64.254.22.111"/>
+</IPGroups>
+<!--****************************************************************************************************************-->
+<!--This report may contain  Personal Data. Please exercise due care while sharing this report to someone.-->
+<!--****************************************************************************************************************-->
+</CONF_IPGroup>
