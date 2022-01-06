@@ -11,7 +11,7 @@ app.config['UPLOAD_EXTENSIONS'] = ['.xml']
 app.config['UPLOAD_PATH'] = '/src/input_file'
 app.config['OUTPUT_PATH'] = '/src/report_repo'
 app.config["REDIS_URL"] = "redis://redis:6379"
-app.register_blueprint(sse, url_prefix='/stream')
+app.register_blueprint(sse, url_prefix='/billing-tools/stream')
 
 def update_stream():
     filenames = next(os.walk(app.config['OUTPUT_PATH']), (None, None, []))[2]  # [] if no file
@@ -28,13 +28,13 @@ def unwanted_file(e):
     return "File is not an XML", 400
 
 
-@app.route('/')
+@app.route('/billing-tools')
 def index():
     files = os.listdir(app.config['OUTPUT_PATH'])
     return render_template('index.html', files=files)
 
 
-@app.route('/', methods=['POST'])
+@app.route('/billing-tools', methods=['POST'])
 def upload_files():
     uploaded_file = request.files['file']
     filename = secure_filename(uploaded_file.filename)
@@ -57,12 +57,12 @@ def upload_files():
     return '', 204
 
 
-@app.route('/download/<filename>', methods=['GET'])
+@app.route('/billing-tools/download/<filename>', methods=['GET'])
 def download(filename):
     return send_from_directory(app.config['OUTPUT_PATH'], filename, as_attachment=True)
 
 
-@app.route('/delete/<filename>', methods=['DELETE'])
+@app.route('/billing-tools/delete/<filename>', methods=['DELETE'])
 def delete_report(filename):
     os.remove(os.path.join(app.config['OUTPUT_PATH'], filename))
     return '', 204

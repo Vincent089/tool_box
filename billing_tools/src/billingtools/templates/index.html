@@ -45,7 +45,7 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
-<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -54,7 +54,7 @@
     const source = new EventSource("{{ url_for('sse.stream') }}");
     source.addEventListener('new-file', function (event) {
         const filename = JSON.parse(event.data)['filename'];
-        $("tbody").append("<tr><th scope='row'>" + filename + "</th><td><a href=download/" + filename +
+        $("tbody").append("<tr><th scope='row'>" + filename + "</th><td><a href=billing-tools/download/" + filename +
             ">download</a></td><td><button class='btn btn-link' onclick=\"send_delete_report(this.id)\"" +
             "style='padding:0px;margin:0px;border:0px;vertical-align: top;' type='button' id=" + filename
             + ">delete</button></td></tr>");
@@ -84,7 +84,7 @@
 
     function send_delete_report(filename) {
         $.ajax({
-            url: 'delete/' + filename,
+            url: 'billing-tools/delete/' + filename,
             method: 'delete'
         }).then(() => location.reload())
     }

@@ -5,7 +5,7 @@ services:
   api:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: docker/dev/Dockerfile
     image: billing-tools
     environment:
       - PYTHONDONTWRITEBYTECODE=1
