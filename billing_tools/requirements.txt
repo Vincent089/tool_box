@@ -1,0 +1,10 @@
+# app
+flask
+flask-sse
+
+# dev/tests
+pytest
+pytest-icdiff
+mypy
+pylint
+requests
