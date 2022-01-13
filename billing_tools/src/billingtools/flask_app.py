@@ -13,10 +13,6 @@ app.config['OUTPUT_PATH'] = '/src/report_repo'
 app.config["REDIS_URL"] = "redis://redis:6379"
 app.register_blueprint(sse, url_prefix='/billing-tools/stream')
 
-def update_stream():
-    filenames = next(os.walk(app.config['OUTPUT_PATH']), (None, None, []))[2]  # [] if no file
-    sse.publish({"files": filenames}, type='files-list')
-
 
 @app.errorhandler(413)
 def too_large(e):
