@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  ua-tools:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: ua-tools-service
+    depends_on:
+      - mailhog
+    volumes:
+      - ./src:/src
+      - ./tests:/tests
+    entrypoint: python /src/uatools/vpn_usage.py
+    ports:
+      - "5000:80"
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "11025:1025"
+      - "18025:8025"
