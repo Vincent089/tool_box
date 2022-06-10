@@ -1,4 +1,4 @@
-import smtplib, asyncio, requests
+import smtplib, asyncio
 from concurrent.futures import ThreadPoolExecutor
 
 from email.mime.multipart import MIMEMultipart
