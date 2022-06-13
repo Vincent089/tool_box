@@ -4,3 +4,4 @@ _file_output
 venv
 .idea
 logs
+.eggs
