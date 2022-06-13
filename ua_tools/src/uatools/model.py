@@ -1,7 +1,15 @@
+'''
+CGI INTERNAL USE ONLY
+
+model.py is part of uatools package and is a collection of classes allowing GET queries to UA Gateway devices and parse
+specific collected data such as AAA current usage or VPN Vserver current usage
+
+Author: Vincent Corriveau (vincent.corriveau@cgi.com)
+'''
 import requests, urllib3
 from requests import Timeout
 
-from logger import get_logger
+from uatools.logger import get_logger
 
 LOGGER = get_logger('uatools.vpn_usage')
 AUTH_HEADERS = {
@@ -11,6 +19,7 @@ AUTH_HEADERS = {
 
 
 class Parser:
+    """A JSON reader for nitro API response"""
     def __init__(self, gateway_type: str):
         self.aaa_parse_strategy = getattr(self, f'_ua_{gateway_type.lower()}_aaa_parser',
                                           self._default_aaa_parser)
@@ -34,6 +43,7 @@ class Parser:
 
 
 class Gateway:
+    """Representation of an UA Gateway"""
     def __init__(self, type, location, ip):
         self.parent = 'UA'
         self.type = type
@@ -71,7 +81,7 @@ class Gateway:
         """
         urllib3.disable_warnings()
         try:
-            LOGGER.info(f'Querying Gateway {self.ip} API, Endpoint: GET /nitro/v1/stat/hanode')
+            LOGGER.info(f'Querying Gateway {self.ip} Endpoint: GET /nitro/v1/stat/hanode')
             return str(requests.get(f'https://{self.ip}/nitro/v1/stat/hanode',
                                     headers=AUTH_HEADERS,
                                     verify=False,
@@ -130,7 +140,7 @@ class Gateway:
         """
         urllib3.disable_warnings()
         try:
-            LOGGER.info(f'Querying Gateway {self.ip} API, Endpoint: GET /nitro/v1/stat/aaa')
+            LOGGER.info(f'Querying Gateway {self.ip} Endpoint: GET /nitro/v1/stat/aaa')
             gateway_stats = requests.get(f'https://{self.ip}/nitro/v1/stat/aaa',
                                          headers=AUTH_HEADERS,
                                          verify=False,
@@ -140,7 +150,7 @@ class Gateway:
         except Timeout:
             LOGGER.error(f'Gateway {self.ip} fail to connect: Connection timed out (10sec)')
         except Exception as e:
-            LOGGER.info(f'Gateway {self.ip} API, error: {str(e)}')
+            LOGGER.info(f'Gateway {self.ip} error: {str(e)}')
             return 0
 
     @property
@@ -179,7 +189,7 @@ class Gateway:
         """
         urllib3.disable_warnings()
         try:
-            LOGGER.info(f'Querying Gateway {self.ip} API, Endpoint: GET /nitro/v1/stat/vpnvserver')
+            LOGGER.info(f'Querying Gateway {self.ip} Endpoint: GET /nitro/v1/stat/vpnvserver')
             gateway_stats = requests.get(f'https://{self.ip}/nitro/v1/stat/vpnvserver',
                                          headers=AUTH_HEADERS,
                                          verify=False,

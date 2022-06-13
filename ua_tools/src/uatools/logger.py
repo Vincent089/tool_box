@@ -1,8 +1,8 @@
-import logging
-import sys
+import logging, sys, os
 
+WORK_DIR = os.path.realpath(os.path.dirname(os.path.dirname(__file__)))
 LOG_FORMATTER = logging.Formatter('%(asctime)s | %(name)s | %(levelname)s | %(message)s')
-LOG_FILE = 'logs/ua_vpn_usage.log'
+LOG_FILE = f'{WORK_DIR}/uatools/logs/ua_vpn_usage.log'
 
 
 def get_console_handler():

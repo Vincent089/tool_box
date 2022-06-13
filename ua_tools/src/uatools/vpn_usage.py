@@ -1,4 +1,14 @@
-import smtplib, asyncio
+'''
+CGI INTERNAL USE ONLY
+
+vpn_usage.py is a simple async wrap of various API calls aimed at UA Gateway devices in order to collect their current
+user count. User counts are then stored in text format and send by mail to a receipt list.
+
+Author: Vincent Corriveau (vincent.corriveau@cgi.com)
+
+Work inspired by an old version of ua-stats-automation.py
+'''
+import smtplib, asyncio, os
 
 from concurrent.futures import ThreadPoolExecutor
 from email import encoders
@@ -6,18 +16,18 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from model import LOGGER, Gateway
+from uatools.model import LOGGER, Gateway
 
 # ---- Prod Setting. ----
-# SMTP_SERVER = '142.101.194.230'
-# SMTP_PORT = '25'
-# REPORT_RECEIPTS = ['noccgi.si@cgi.com', 'repotnp.gto@cgi.com']
+SMTP_SERVER = '142.101.194.230'
+SMTP_PORT = '25'
+REPORT_RECEIPTS = ['noccgi.si@cgi.com', 'repotnp.gto@cgi.com']
 # -----------------------
 
 # ---- Dev Setting. ----
-SMTP_SERVER = 'mailhog'
-SMTP_PORT = '1025'
-REPORT_RECEIPTS = ['vincent.corriveau@cgi.com']
+# SMTP_SERVER = 'localhost'
+# SMTP_PORT = '11025'
+# REPORT_RECEIPTS = ['vincent.corriveau@cgi.com']
 # ----------------------
 
 GATEWAYS = [
@@ -43,6 +53,9 @@ GATEWAYS = [
     Gateway('LITE', 'STO', '10.254.239.6')
 ]
 
+success_logs = []
+exception_logs = []
+
 
 def send_report(data: str):
     body = "Hi,\n\nPlease find below the latest statistics for Unified Access. The numbers represent the number of people connected.\n\n" + data
@@ -56,7 +69,8 @@ def send_report(data: str):
     msg.attach(MIMEText(body, 'plain'))
 
     # read log and add it as attachment to the email
-    attachment = open('logs/ua_vpn_usage.log', 'rb')
+    log_file = f'{os.path.realpath(os.path.dirname(os.path.dirname(__file__)))}/uatools/logs/ua_vpn_usage.log'
+    attachment = open(log_file, 'rb')
     part = MIMEBase('application', 'octet-stream')
     part.set_payload(attachment.read())
     encoders.encode_base64(part)
@@ -69,10 +83,6 @@ def send_report(data: str):
     smtp.quit()
 
     LOGGER.info(f'report sent to {REPORT_RECEIPTS}')
-
-
-def send_logs():
-    pass
 
 
 def fetch_gateway_session_count(gateway: Gateway):
@@ -110,10 +120,7 @@ async def fetch_gateway_data():
                 success_logs.append(response)
 
 
-if __name__ == "__main__":
-    success_logs = []
-    exception_logs = []
-
+def run():
     LOGGER.info('vpn usage started')
 
     # get a async loop to run tasks
@@ -124,3 +131,7 @@ if __name__ == "__main__":
     # bridge both result list into a single string with prompt return between each
     data_as_string = '\n'.join(success_logs) + '\n' + '\n'.join(exception_logs)
     send_report(data_as_string)
+
+
+if __name__ == "__main__":
+    run()
