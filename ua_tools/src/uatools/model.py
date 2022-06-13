@@ -1,7 +1,9 @@
 import requests, urllib3
+from requests import Timeout
 
-from enum import Enum
+from logger import get_logger
 
+LOGGER = get_logger('uatools.vpn_usage')
 AUTH_HEADERS = {
     'X-NITRO-USER': 'nsroot',
     'X-NITRO-PASS': 'lan0wan0'  # Password can be found in Password Safe
@@ -68,10 +70,17 @@ class Gateway:
         :return bool
         """
         urllib3.disable_warnings()
-        return str(requests.get(f'https://{self.ip}/nitro/v1/stat/hanode',
-                                headers=AUTH_HEADERS,
-                                verify=False,
-                                timeout=10).json()['hanode']['hacurmasterstate']) == 'Primary'
+        try:
+            LOGGER.info(f'Querying Gateway {self.ip} API, Endpoint: GET /nitro/v1/stat/hanode')
+            return str(requests.get(f'https://{self.ip}/nitro/v1/stat/hanode',
+                                    headers=AUTH_HEADERS,
+                                    verify=False,
+                                    timeout=10).json()['hanode']['hacurmasterstate']) == 'Primary'
+        except Timeout:
+            LOGGER.error(f'Gateway {self.ip} fail to connect: Connection timed out (10sec)')
+        except Exception as e:
+            LOGGER.error(f'Gateway {self.ip} error: {str(e)}')
+            return False
 
     @property
     def current_session_count(self):
@@ -120,13 +129,19 @@ class Gateway:
         :return int
         """
         urllib3.disable_warnings()
-        gateway_stats = requests.get(f'https://{self.ip}/nitro/v1/stat/aaa',
-                                     headers=AUTH_HEADERS,
-                                     verify=False,
-                                     timeout=10).json()
-        session_count = self.parser.aaa_parse_strategy(gateway_stats)
-
-        return session_count
+        try:
+            LOGGER.info(f'Querying Gateway {self.ip} API, Endpoint: GET /nitro/v1/stat/aaa')
+            gateway_stats = requests.get(f'https://{self.ip}/nitro/v1/stat/aaa',
+                                         headers=AUTH_HEADERS,
+                                         verify=False,
+                                         timeout=10).json()
+            session_count = self.parser.aaa_parse_strategy(gateway_stats)
+            return session_count
+        except Timeout:
+            LOGGER.error(f'Gateway {self.ip} fail to connect: Connection timed out (10sec)')
+        except Exception as e:
+            LOGGER.info(f'Gateway {self.ip} API, error: {str(e)}')
+            return 0
 
     @property
     def detailed_session_count(self):
@@ -163,10 +178,16 @@ class Gateway:
         :return dict
         """
         urllib3.disable_warnings()
-        gateway_stats = requests.get(f'https://{self.ip}/nitro/v1/stat/vpnvserver',
-                                     headers=AUTH_HEADERS,
-                                     verify=False,
-                                     timeout=10).json()
-        session_count = self.parser.vserver_parse_strategy(gateway_stats)
-
-        return session_count
+        try:
+            LOGGER.info(f'Querying Gateway {self.ip} API, Endpoint: GET /nitro/v1/stat/vpnvserver')
+            gateway_stats = requests.get(f'https://{self.ip}/nitro/v1/stat/vpnvserver',
+                                         headers=AUTH_HEADERS,
+                                         verify=False,
+                                         timeout=10).json()
+            session_count = self.parser.vserver_parse_strategy(gateway_stats)
+            return session_count
+        except Timeout:
+            LOGGER.error(f'Gateway {self.ip} fail to connect: Connection timed out (10sec)')
+        except Exception as e:
+            LOGGER.error(f'Gateway {self.ip} error: {str(e)}')
+            return 0

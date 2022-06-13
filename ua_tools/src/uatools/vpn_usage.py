@@ -1,21 +1,23 @@
 import smtplib, asyncio
-from concurrent.futures import ThreadPoolExecutor
 
+from concurrent.futures import ThreadPoolExecutor
+from email import encoders
+from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from model import Gateway
+from model import LOGGER, Gateway
 
 # ---- Prod Setting. ----
-SMTP_SERVER = '142.101.194.230'
-SMTP_PORT = '25'
-REPORT_RECEIPTS = ['noccgi.si@cgi.com', 'repotnp.gto@cgi.com']
+# SMTP_SERVER = '142.101.194.230'
+# SMTP_PORT = '25'
+# REPORT_RECEIPTS = ['noccgi.si@cgi.com', 'repotnp.gto@cgi.com']
 # -----------------------
 
 # ---- Dev Setting. ----
-# SMTP_SERVER = 'mailhog'
-# SMTP_PORT = '1025'
-# REPORT_RECEIPTS = ['vincent.corriveau@cgi.com']
+SMTP_SERVER = 'mailhog'
+SMTP_PORT = '1025'
+REPORT_RECEIPTS = ['vincent.corriveau@cgi.com']
 # ----------------------
 
 GATEWAYS = [
@@ -45,6 +47,7 @@ GATEWAYS = [
 def send_report(data: str):
     body = "Hi,\n\nPlease find below the latest statistics for Unified Access. The numbers represent the number of people connected.\n\n" + data
 
+    # set message and text body
     msg = MIMEMultipart('alternative')
     msg['Subject'] = "Unified Access - Statistics"
     msg['From'] = "CGI GTO NOC <noccgi.si@cgi.com>"
@@ -52,9 +55,24 @@ def send_report(data: str):
     msg['Cc'] = "noccgi.si@cgi.com"
     msg.attach(MIMEText(body, 'plain'))
 
+    # read log and add it as attachment to the email
+    attachment = open('logs/ua_vpn_usage.log', 'rb')
+    part = MIMEBase('application', 'octet-stream')
+    part.set_payload(attachment.read())
+    encoders.encode_base64(part)
+    part.add_header('Content-Disposition', "attachment; filename=ua_vpn_usage.log")
+    msg.attach(part)
+
+    # send the email to SMTP host/port
     smtp = smtplib.SMTP(SMTP_SERVER, port=SMTP_PORT)
     smtp.sendmail("noccgi.si@cgi.com", REPORT_RECEIPTS, msg.as_string())
     smtp.quit()
+
+    LOGGER.info(f'report sent to {REPORT_RECEIPTS}')
+
+
+def send_logs():
+    pass
 
 
 def fetch_gateway_session_count(gateway: Gateway):
@@ -95,6 +113,8 @@ async def fetch_gateway_data():
 if __name__ == "__main__":
     success_logs = []
     exception_logs = []
+
+    LOGGER.info('vpn usage started')
 
     # get a async loop to run tasks
     loop = asyncio.get_event_loop()
