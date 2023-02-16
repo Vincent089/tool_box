@@ -1,0 +1,67 @@
+{% extends 'email_base.html' %}
+{% block email_body %}
+{{ data['message'] }}
+<p style="margin: 0; padding: 0;">&nbsp;</p>
+<h3>New certificates&nbsp;</h3>
+<div align=center>
+    <table border=0 cellpadding=0 cellspacing=0 class=MsoNormalTable style='border-collapse:collapse; width:100%'>
+        <tr>
+            <td style='border-top:none;border-left:none;border-bottom:solid #5236AB 3.0pt;border-right:solid white 6.0pt;padding:.7pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    <strong><span style='font-size:9.0pt;font-family:"Arial",sans-serif'>
+                        Name
+                    </span></strong>
+                </p>
+            </td>
+            <td style='border-top:none;border-left:none;border-bottom:solid #5236AB 3.0pt;border-right:solid white 6.0pt;padding:.7pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    <strong><span style='font-size:9.0pt;font-family:"Arial",sans-serif'>
+                        Common Name
+                    </span></strong>
+                </p>
+            </td>
+            <td style='border-top:none;border-left:none;border-bottom:solid #5236AB 3.0pt;border-right:solid white 6.0pt;padding:.7pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    <strong><span style='font-size:9.0pt;font-family:"Arial",sans-serif'>
+                        Located on
+                    </span></strong>
+                </p>
+            </td>
+            <td style='border-top:none;border-left:none;border-bottom:solid #5236AB 3.0pt;border-right:solid white 6.0pt;padding:.7pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    <strong><span style='font-size:9.0pt;font-family:"Arial",sans-serif'>
+                        Expires on
+                    </span></strong>
+                </p>
+            </td>
+            
+        </tr>
+        {% for certificate in data['certificates'] %}
+        <tr>
+            <td style='border-top:none;border-left:none;border-bottom:dotted #E7E6E6 1.0pt;border-right:solid white 6.0pt;padding:5.75pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    <span style='font-size:9.0pt;font-family:"Arial",sans-serif'>{{ certificate['name'] }}</span>
+                </p>
+            </td>
+            <td style='border-top:none;border-left:none;border-bottom:dotted #E7E6E6 1.0pt;border-right:solid white 6.0pt;padding:5.75pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    <span style='font-size:9.0pt;font-family:"Arial",sans-serif'>{{ certificate['cn'] }}</span>
+                </p>
+            </td>
+            <td style='border-top:none;border-left:none;border-bottom:dotted #E7E6E6 1.0pt;border-right:solid white 6.0pt;padding:5.75pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    {% for device in certificate['devices'] %}
+                    <span style='font-size:9.0pt;font-family:"Arial",sans-serif'>{{ device }}; </span>
+                    {% endfor %}
+                </p>
+            </td>
+            <td style='border-top:none;border-left:none;border-bottom:dotted #E7E6E6 1.0pt;border-right:solid white 6.0pt;padding:5.75pt 0in 5.75pt 0in'>
+                <p align=left style='text-align:left'>
+                    <span style='font-size:9.0pt;font-family:"Arial",sans-serif'>{{ certificate['expires_on'] }}</span>
+                </p>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
